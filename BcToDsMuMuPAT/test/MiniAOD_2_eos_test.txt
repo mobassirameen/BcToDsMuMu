@@ -1,0 +1,1 @@
+file:root://eosuser.cern.ch//eos//user/m/moameen/BcToDsMuMu_MC_MINIAOD/BcToDsMuMu_MC_MINIAOD_10.root

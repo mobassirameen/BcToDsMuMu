@@ -1,0 +1,1154 @@
+DEBUG 2020-12-08 09:09:31.253 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-08 09:09:31.254 UTC: 	 Running on: Linux lxplus7102.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-08 09:09:31.254 UTC: 	 Executing command: 'getoutput'
+DEBUG 2020-12-08 09:09:31.254 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-08 09:09:39.583 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-08 09:09:39.584 UTC: 	 Running on: Linux lxplus7102.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-08 09:09:39.584 UTC: 	 Executing command: 'getoutput'
+DEBUG 2020-12-08 09:09:39.584 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-08 09:15:15.415 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-08 09:15:15.415 UTC: 	 Running on: Linux lxplus7102.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-08 09:15:15.415 UTC: 	 Executing command: 'getoutput'
+DEBUG 2020-12-08 09:15:15.416 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-08 09:16:00.785 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-08 09:16:00.786 UTC: 	 Running on: Linux lxplus7102.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-08 09:16:00.786 UTC: 	 Executing command: 'getoutput'
+DEBUG 2020-12-08 09:16:00.786 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-08 09:28:09.436 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-08 09:28:09.436 UTC: 	 Running on: Linux lxplus7102.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-08 09:28:09.436 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-08 09:28:09.436 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-08 09:28:09.445 UTC: 	 Checking credentials
+DEBUG 2020-12-08 09:28:09.445 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-08 09:28:09.445 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-08 09:28:10.050 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 598650
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-08 09:28:10.656 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 598650
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-08 09:28:10.656 UTC: 	 Proxy valid for 166:17:30 hours
+DEBUG 2020-12-08 09:28:11.262 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-08 09:28:11.263 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-08 09:28:11.263 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-08 09:28:11.263 UTC: 	 Instance is None
+DEBUG 2020-12-08 09:28:11.263 UTC: 	 Server base url is None
+DEBUG 2020-12-08 09:28:11.263 UTC: 	 Retrieving username ...
+DEBUG 2020-12-08 09:28:11.263 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-08 09:28:12.469 UTC: 	 username is digupta
+INFO 2020-12-08 09:28:12.470 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-08 09:28:12.470 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-08 09:28:12.470 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-08 09:28:12.482 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-08 09:28:12.482 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-08 09:28:15.980 UTC: 	 Will use PFN: srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/digupta/crab3checkwrite_20201208_102812/crab3checkwrite_20201208_102812.tmp
+INFO 2020-12-08 09:28:15.981 UTC: 	 
+Attempting to create (dummy) directory crab3checkwrite_20201208_102812 and copy (dummy) file crab3checkwrite_20201208_102812.tmp to /store/user/digupta
+
+INFO 2020-12-08 09:28:15.986 UTC: 	 Executing command: which scram >/dev/null 2>&1 && eval `scram unsetenv -sh`; gfal-copy -p -v -t 180 file:///afs/cern.ch/user/d/digupta/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/test/crab3checkwrite_20201208_102812.tmp 'srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/digupta/crab3checkwrite_20201208_102812/crab3checkwrite_20201208_102812.tmp'
+INFO 2020-12-08 09:28:15.986 UTC: 	 Please wait...
+INFO 2020-12-08 09:28:22.902 UTC: 	 
+Successfully created directory crab3checkwrite_20201208_102812 and copied file crab3checkwrite_20201208_102812.tmp to /store/user/digupta
+INFO 2020-12-08 09:28:22.902 UTC: 	 
+Attempting to delete file srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/digupta/crab3checkwrite_20201208_102812/crab3checkwrite_20201208_102812.tmp
+
+INFO 2020-12-08 09:28:22.902 UTC: 	 Executing command: which scram >/dev/null 2>&1 && eval `scram unsetenv -sh`; gfal-rm -v -t 180 'srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/digupta/crab3checkwrite_20201208_102812/crab3checkwrite_20201208_102812.tmp'
+INFO 2020-12-08 09:28:22.902 UTC: 	 Please wait...
+INFO 2020-12-08 09:28:24.633 UTC: 	 
+Successfully deleted file srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/digupta/crab3checkwrite_20201208_102812/crab3checkwrite_20201208_102812.tmp
+INFO 2020-12-08 09:28:24.633 UTC: 	 
+Attempting to delete directory srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/digupta/crab3checkwrite_20201208_102812/
+
+INFO 2020-12-08 09:28:24.633 UTC: 	 Executing command: which scram >/dev/null 2>&1 && eval `scram unsetenv -sh`; gfal-rm -r -v -t 180 'srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/digupta/crab3checkwrite_20201208_102812/'
+INFO 2020-12-08 09:28:24.633 UTC: 	 Please wait...
+INFO 2020-12-08 09:28:26.925 UTC: 	 
+Successfully deleted directory srm://se01.indiacms.res.in:8446/srm/managerv2?SFN=/dpm/indiacms.res.in/home/cms/store/user/digupta/crab3checkwrite_20201208_102812/
+INFO 2020-12-08 09:28:27.016 UTC: 	 
+Checkwrite Result:
+INFO 2020-12-08 09:28:27.016 UTC: 	 Success: Able to write in /store/user/digupta on site T2_IN_TIFR
+DEBUG 2020-12-21 13:10:22.054 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 13:10:22.054 UTC: 	 Running on: Linux lxplus764.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 13:10:22.054 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 13:10:22.054 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 13:10:22.063 UTC: 	 Checking credentials
+DEBUG 2020-12-21 13:10:22.064 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 13:10:22.064 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 13:10:22.770 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 619002
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:10:23.477 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 619001
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:10:23.477 UTC: 	 Proxy lifetime 619002 secs is different from voms extension lifetime 619001 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 13:10:23.477 UTC: 	 Proxy valid for 171:56:41 hours
+DEBUG 2020-12-21 13:10:24.186 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+ERROR 2020-12-21 13:10:24.187 UTC: 	 Error: Please specify the site where to check the write permissions. Use the --site option.
+ERROR 2020-12-21 13:10:24.187 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/checkwrite.py", line 21, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 368, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/checkwrite.py", line 282, in validateOptions
+    raise ex
+MissingOptionException: [91mError[0m: Please specify the site where to check the write permissions. Use the --site option.
+INFO 2020-12-21 13:10:24.235 UTC: 	 Log file is /afs/cern.ch/user/d/digupta/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/test/crab.log
+DEBUG 2020-12-21 13:10:56.620 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 13:10:56.620 UTC: 	 Running on: Linux lxplus764.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 13:10:56.620 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 13:10:56.621 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 13:10:56.628 UTC: 	 Checking credentials
+DEBUG 2020-12-21 13:10:56.629 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 13:10:56.629 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 13:10:57.446 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 618967
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:10:58.156 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 618966
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:10:58.156 UTC: 	 Proxy lifetime 618967 secs is different from voms extension lifetime 618966 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 13:10:58.156 UTC: 	 Proxy valid for 171:56:06 hours
+DEBUG 2020-12-21 13:10:58.862 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:10:58.863 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 13:10:58.863 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 13:10:58.863 UTC: 	 Instance is None
+DEBUG 2020-12-21 13:10:58.863 UTC: 	 Server base url is None
+DEBUG 2020-12-21 13:10:58.863 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 13:10:58.863 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 13:10:59.600 UTC: 	 username is digupta
+INFO 2020-12-21 13:10:59.601 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 13:10:59.601 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 13:10:59.601 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 13:10:59.618 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 13:10:59.620 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 13:11:04.770 UTC: 	 PFN lookup failed
+INFO 2020-12-21 13:11:04.771 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 13:11:04.771 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-JwstLm.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-21 13:11:26.851 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 13:11:26.851 UTC: 	 Running on: Linux lxplus764.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 13:11:26.851 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 13:11:26.851 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 13:11:26.865 UTC: 	 Checking credentials
+DEBUG 2020-12-21 13:11:26.866 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 13:11:26.866 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 13:11:27.783 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 618937
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:11:28.696 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 618936
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:11:28.697 UTC: 	 Proxy lifetime 618937 secs is different from voms extension lifetime 618936 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 13:11:28.697 UTC: 	 Proxy valid for 171:55:36 hours
+DEBUG 2020-12-21 13:11:29.503 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:11:29.504 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 13:11:29.504 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 13:11:29.504 UTC: 	 Instance is None
+DEBUG 2020-12-21 13:11:29.504 UTC: 	 Server base url is None
+DEBUG 2020-12-21 13:11:29.504 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 13:11:29.504 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 13:11:30.201 UTC: 	 username is digupta
+INFO 2020-12-21 13:11:30.201 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 13:11:30.202 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 13:11:30.202 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 13:11:30.223 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 13:11:30.223 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 13:11:32.523 UTC: 	 PFN lookup failed
+INFO 2020-12-21 13:11:32.524 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 13:11:32.524 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-5_GMyf.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-21 13:11:42.861 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 13:11:42.861 UTC: 	 Running on: Linux lxplus764.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 13:11:42.861 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 13:11:42.861 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 13:11:42.872 UTC: 	 Checking credentials
+DEBUG 2020-12-21 13:11:42.872 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 13:11:42.872 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 13:11:43.680 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 618921
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:11:44.387 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 618920
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:11:44.387 UTC: 	 Proxy lifetime 618921 secs is different from voms extension lifetime 618920 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 13:11:44.387 UTC: 	 Proxy valid for 171:55:20 hours
+DEBUG 2020-12-21 13:11:45.103 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:11:45.104 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 13:11:45.104 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 13:11:45.104 UTC: 	 Instance is None
+DEBUG 2020-12-21 13:11:45.104 UTC: 	 Server base url is None
+DEBUG 2020-12-21 13:11:45.104 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 13:11:45.104 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 13:11:45.787 UTC: 	 username is digupta
+INFO 2020-12-21 13:11:45.787 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 13:11:45.787 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 13:11:45.787 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 13:11:45.798 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 13:11:45.802 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 13:11:47.894 UTC: 	 PFN lookup failed
+INFO 2020-12-21 13:11:47.895 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 13:11:47.895 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-d4t2D0.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-21 13:12:17.052 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 13:12:17.053 UTC: 	 Running on: Linux lxplus764.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 13:12:17.053 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 13:12:17.053 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 13:12:17.062 UTC: 	 Checking credentials
+DEBUG 2020-12-21 13:12:17.062 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 13:12:17.062 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 13:12:17.776 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 691192
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:12:18.482 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 691190
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:12:18.482 UTC: 	 Proxy lifetime 691192 secs is different from voms extension lifetime 691190 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 13:12:18.483 UTC: 	 Proxy valid for 191:59:50 hours
+DEBUG 2020-12-21 13:12:19.088 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:12:19.089 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 13:12:19.089 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 13:12:19.089 UTC: 	 Instance is None
+DEBUG 2020-12-21 13:12:19.089 UTC: 	 Server base url is None
+DEBUG 2020-12-21 13:12:19.089 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 13:12:19.089 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 13:12:19.738 UTC: 	 username is digupta
+INFO 2020-12-21 13:12:19.739 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 13:12:19.739 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 13:12:19.739 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 13:12:19.752 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 13:12:19.752 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 13:12:21.944 UTC: 	 PFN lookup failed
+INFO 2020-12-21 13:12:21.944 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 13:12:21.944 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-L__b7W.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-21 13:20:09.937 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 13:20:09.938 UTC: 	 Running on: Linux lxplus764.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 13:20:09.938 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 13:20:09.938 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 13:20:09.946 UTC: 	 Checking credentials
+DEBUG 2020-12-21 13:20:09.947 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 13:20:09.947 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 13:20:10.757 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 690719
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:20:11.466 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 690717
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:20:11.466 UTC: 	 Proxy lifetime 690719 secs is different from voms extension lifetime 690717 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 13:20:11.466 UTC: 	 Proxy valid for 191:51:57 hours
+DEBUG 2020-12-21 13:20:12.176 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:20:12.177 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 13:20:12.177 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 13:20:12.177 UTC: 	 Instance is None
+DEBUG 2020-12-21 13:20:12.177 UTC: 	 Server base url is None
+DEBUG 2020-12-21 13:20:12.177 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 13:20:12.177 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 13:20:12.936 UTC: 	 username is digupta
+INFO 2020-12-21 13:20:12.936 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 13:20:12.936 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 13:20:12.936 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 13:20:12.964 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 13:20:12.965 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 13:20:15.900 UTC: 	 PFN lookup failed
+INFO 2020-12-21 13:20:15.900 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 13:20:15.901 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-2VCI0P.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-21 13:22:07.007 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 13:22:07.008 UTC: 	 Running on: Linux lxplus7114.cern.ch 3.10.0-1160.6.1.el7.x86_64 #1 SMP Tue Nov 17 13:59:11 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 13:22:07.008 UTC: 	 Executing command: 'checkusername'
+DEBUG 2020-12-21 13:22:07.009 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 13:22:07.015 UTC: 	 Checking credentials
+DEBUG 2020-12-21 13:22:07.015 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 13:22:07.015 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 13:22:07.519 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 691152
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:22:08.023 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 691152
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:22:08.023 UTC: 	 Proxy valid for 191:59:12 hours
+DEBUG 2020-12-21 13:22:08.023 UTC: 	 Command use: checkusername
+DEBUG 2020-12-21 13:22:08.023 UTC: 	 Options use: []
+DEBUG 2020-12-21 13:22:08.023 UTC: 	 Instance is None
+DEBUG 2020-12-21 13:22:08.023 UTC: 	 Server base url is None
+DEBUG 2020-12-21 13:22:08.023 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 13:22:08.023 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 13:22:08.743 UTC: 	 username is digupta
+INFO 2020-12-21 13:22:08.743 UTC: 	 Username is: digupta
+DEBUG 2020-12-21 13:22:21.025 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 13:22:21.025 UTC: 	 Running on: Linux lxplus7114.cern.ch 3.10.0-1160.6.1.el7.x86_64 #1 SMP Tue Nov 17 13:59:11 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 13:22:21.025 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 13:22:21.025 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 13:22:21.031 UTC: 	 Checking credentials
+DEBUG 2020-12-21 13:22:21.031 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 13:22:21.031 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 13:22:21.635 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 691138
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:22:22.140 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 691137
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:22:22.140 UTC: 	 Proxy lifetime 691138 secs is different from voms extension lifetime 691137 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 13:22:22.140 UTC: 	 Proxy valid for 191:58:57 hours
+DEBUG 2020-12-21 13:22:22.644 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:22:22.644 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 13:22:22.644 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 13:22:22.645 UTC: 	 Instance is None
+DEBUG 2020-12-21 13:22:22.645 UTC: 	 Server base url is None
+DEBUG 2020-12-21 13:22:22.645 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 13:22:22.645 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 13:22:23.360 UTC: 	 username is digupta
+INFO 2020-12-21 13:22:23.360 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 13:22:23.360 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 13:22:23.360 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 13:22:23.369 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 13:22:23.371 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 13:22:25.441 UTC: 	 PFN lookup failed
+INFO 2020-12-21 13:22:25.442 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 13:22:25.442 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-XtSbMy.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-21 13:39:25.303 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 13:39:25.303 UTC: 	 Running on: Linux lxplus7114.cern.ch 3.10.0-1160.6.1.el7.x86_64 #1 SMP Tue Nov 17 13:59:11 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 13:39:25.303 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 13:39:25.304 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 13:39:25.310 UTC: 	 Checking credentials
+DEBUG 2020-12-21 13:39:25.310 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 13:39:25.310 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 13:39:25.914 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 690114
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:39:26.420 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 690113
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:39:26.420 UTC: 	 Proxy lifetime 690114 secs is different from voms extension lifetime 690113 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 13:39:26.420 UTC: 	 Proxy valid for 191:41:53 hours
+DEBUG 2020-12-21 13:39:27.024 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 13:39:27.025 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 13:39:27.025 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 13:39:27.025 UTC: 	 Instance is None
+DEBUG 2020-12-21 13:39:27.025 UTC: 	 Server base url is None
+DEBUG 2020-12-21 13:39:27.025 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 13:39:27.025 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 13:39:27.732 UTC: 	 username is digupta
+INFO 2020-12-21 13:39:27.732 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 13:39:27.732 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 13:39:27.732 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 13:39:27.741 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 13:39:27.743 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 13:39:29.276 UTC: 	 PFN lookup failed
+INFO 2020-12-21 13:39:29.276 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 13:39:29.276 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-KzA1yO.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-21 14:10:54.347 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 14:10:54.347 UTC: 	 Running on: Linux lxplus701.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 14:10:54.347 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 14:10:54.354 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 14:10:54.368 UTC: 	 Checking credentials
+DEBUG 2020-12-21 14:10:54.368 UTC: 	 Proxy file /tmp/x509up_u137973 not found
+DEBUG 2020-12-21 14:10:54.972 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : 
+ error: Proxy not found: /tmp/x509up_u137973 (No such file or directory)
+
+ retcode : 1
+DEBUG 2020-12-21 14:10:54.973 UTC: 	 Creating new proxy for 172:00 hours with VO group '' and VO role 'NULL'.
+DEBUG 2020-12-21 14:11:03.695 UTC: 	 Executing : 
+ command : voms-proxy-init -voms cms:/cms -valid 172:00 -rfc
+ output : None
+ error: None
+ retcode : 0
+DEBUG 2020-12-21 14:11:04.302 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 619198
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 14:11:04.908 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 619197
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 14:11:04.908 UTC: 	 Proxy lifetime 619198 secs is different from voms extension lifetime 619197 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 14:11:05.514 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 14:11:05.514 UTC: 	 Proxy created.
+DEBUG 2020-12-21 14:11:05.514 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 14:11:05.514 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 14:11:05.514 UTC: 	 Instance is None
+DEBUG 2020-12-21 14:11:05.514 UTC: 	 Server base url is None
+DEBUG 2020-12-21 14:11:05.515 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 14:11:05.515 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 14:11:06.166 UTC: 	 username is digupta
+INFO 2020-12-21 14:11:06.167 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 14:11:06.167 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 14:11:06.167 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 14:11:06.177 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 14:11:06.179 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 14:11:07.959 UTC: 	 PFN lookup failed
+INFO 2020-12-21 14:11:07.960 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 14:11:07.960 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-ke8OgD.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-21 14:46:34.532 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 14:46:34.532 UTC: 	 Running on: Linux lxplus744.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 14:46:34.532 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 14:46:34.533 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 14:46:34.541 UTC: 	 Checking credentials
+DEBUG 2020-12-21 14:46:34.541 UTC: 	 Proxy file /tmp/x509up_u137973 not found
+DEBUG 2020-12-21 14:46:35.046 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : 
+ error: Proxy not found: /tmp/x509up_u137973 (No such file or directory)
+
+ retcode : 1
+DEBUG 2020-12-21 14:46:35.047 UTC: 	 Creating new proxy for 172:00 hours with VO group '' and VO role 'NULL'.
+DEBUG 2020-12-21 14:46:40.867 UTC: 	 Executing : 
+ command : voms-proxy-init -voms cms:/cms -valid 172:00 -rfc
+ output : None
+ error: None
+ retcode : 0
+DEBUG 2020-12-21 14:46:41.473 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 619198
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 14:46:42.083 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 619197
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 14:46:42.083 UTC: 	 Proxy lifetime 619198 secs is different from voms extension lifetime 619197 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 14:46:42.688 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 14:46:42.688 UTC: 	 Proxy created.
+DEBUG 2020-12-21 14:46:42.689 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 14:46:42.689 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 14:46:42.689 UTC: 	 Instance is None
+DEBUG 2020-12-21 14:46:42.689 UTC: 	 Server base url is None
+DEBUG 2020-12-21 14:46:42.689 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 14:46:42.689 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 14:46:43.365 UTC: 	 username is digupta
+INFO 2020-12-21 14:46:43.365 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 14:46:43.365 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 14:46:43.365 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 14:46:43.376 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 14:46:43.376 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 14:46:50.026 UTC: 	 PFN lookup failed
+INFO 2020-12-21 14:46:50.027 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 14:46:50.027 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-sE4soK.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-21 14:47:08.875 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-21 14:47:08.875 UTC: 	 Running on: Linux lxplus744.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-21 14:47:08.875 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-21 14:47:08.875 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-21 14:47:08.882 UTC: 	 Checking credentials
+DEBUG 2020-12-21 14:47:08.883 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-21 14:47:08.883 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-21 14:47:09.487 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 619170
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 14:47:10.092 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 619169
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 14:47:10.092 UTC: 	 Proxy lifetime 619170 secs is different from voms extension lifetime 619169 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-21 14:47:10.092 UTC: 	 Proxy valid for 171:59:29 hours
+DEBUG 2020-12-21 14:47:10.798 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-21 14:47:10.798 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-21 14:47:10.798 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-21 14:47:10.798 UTC: 	 Instance is None
+DEBUG 2020-12-21 14:47:10.798 UTC: 	 Server base url is None
+DEBUG 2020-12-21 14:47:10.798 UTC: 	 Retrieving username ...
+DEBUG 2020-12-21 14:47:10.798 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-21 14:47:11.468 UTC: 	 username is digupta
+INFO 2020-12-21 14:47:11.468 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-21 14:47:11.468 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-21 14:47:11.468 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-21 14:47:11.477 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-21 14:47:11.478 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-21 14:47:13.002 UTC: 	 PFN lookup failed
+INFO 2020-12-21 14:47:13.002 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-21 14:47:13.002 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-TLMzBd.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-22 09:12:57.642 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-22 09:12:57.643 UTC: 	 Running on: Linux lxplus744.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-22 09:12:57.643 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-22 09:12:57.644 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-22 09:12:57.670 UTC: 	 Checking credentials
+DEBUG 2020-12-22 09:12:57.671 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-22 09:12:57.671 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-22 09:12:58.576 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 552821
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-22 09:12:59.185 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 552820
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-22 09:12:59.185 UTC: 	 Proxy lifetime 552821 secs is different from voms extension lifetime 552820 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-22 09:12:59.185 UTC: 	 Proxy valid for 153:33:40 hours
+DEBUG 2020-12-22 09:12:59.790 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-22 09:12:59.791 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-22 09:12:59.791 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-22 09:12:59.791 UTC: 	 Instance is None
+DEBUG 2020-12-22 09:12:59.791 UTC: 	 Server base url is None
+DEBUG 2020-12-22 09:12:59.791 UTC: 	 Retrieving username ...
+DEBUG 2020-12-22 09:12:59.791 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-22 09:13:00.473 UTC: 	 username is digupta
+INFO 2020-12-22 09:13:00.473 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-22 09:13:00.473 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-22 09:13:00.473 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-22 09:13:00.485 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-22 09:13:00.486 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-22 09:13:03.644 UTC: 	 PFN lookup failed
+INFO 2020-12-22 09:13:03.645 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-22 09:13:03.645 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-JclyiH.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2020-12-28 09:50:57.035 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-12-28 09:50:57.035 UTC: 	 Running on: Linux lxplus736.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-12-28 09:50:57.035 UTC: 	 Executing command: 'checkwrite'
+DEBUG 2020-12-28 09:50:57.036 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+DEBUG 2020-12-28 09:50:57.043 UTC: 	 Checking credentials
+DEBUG 2020-12-28 09:50:57.044 UTC: 	 Found proxy file /tmp/x509up_u137973
+DEBUG 2020-12-28 09:50:57.044 UTC: 	 Getting proxy life time left
+DEBUG 2020-12-28 09:50:57.749 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -timeleft
+ output : 691113
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-28 09:50:58.454 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u137973 -actimeleft
+ output : 691112
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-28 09:50:58.455 UTC: 	 Proxy lifetime 691113 secs is different from voms extension lifetime 691112 secs for proxy: /tmp/x509up_u137973
+DEBUG 2020-12-28 09:50:58.455 UTC: 	 Proxy valid for 191:58:32 hours
+DEBUG 2020-12-28 09:50:59.164 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u137973 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-12-28 09:50:59.164 UTC: 	 Command use: checkwrite
+DEBUG 2020-12-28 09:50:59.165 UTC: 	 Options use: ['--site=T2_IN_TIFR']
+DEBUG 2020-12-28 09:50:59.165 UTC: 	 Instance is None
+DEBUG 2020-12-28 09:50:59.165 UTC: 	 Server base url is None
+DEBUG 2020-12-28 09:50:59.165 UTC: 	 Retrieving username ...
+DEBUG 2020-12-28 09:50:59.165 UTC: 	 Retrieving username from CRIC...
+DEBUG 2020-12-28 09:50:59.872 UTC: 	 username is digupta
+INFO 2020-12-28 09:50:59.873 UTC: 	 Will check write permission in the default location /store/user/<username>
+INFO 2020-12-28 09:50:59.873 UTC: 	 Validating LFN /store/user/digupta...
+INFO 2020-12-28 09:50:59.873 UTC: 	 LFN /store/user/digupta is valid.
+INFO 2020-12-28 09:50:59.887 UTC: 	 Will use `gfal-copy`, `gfal-rm` commands for checking write permissions
+INFO 2020-12-28 09:50:59.887 UTC: 	 Will check write permission in /store/user/digupta on site T2_IN_TIFR
+INFO 2020-12-28 09:51:03.178 UTC: 	 PFN lookup failed
+INFO 2020-12-28 09:51:03.178 UTC: 	   Stdout:
+    rucio 1.23.11.post3
+    
+INFO 2020-12-28 09:51:03.178 UTC: 	   Stderr:
+    /cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py:47: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+      from cryptography import x509
+    Traceback (most recent call last):
+      File "/tmp/lfn2pfn-4klcnY.py", line 2, in <module>
+        from rucio.client import Client
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/__init__.py", line 20, in <module>
+        from .client import Client  # noqa: F401
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/client.py", line 30, in <module>
+        from rucio.client.accountclient import AccountClient
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/rucio/client/accountclient.py", line 37, in <module>
+        from requests.status_codes import codes
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/requests/__init__.py", line 95, in <module>
+        from urllib3.contrib import pyopenssl
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 47, in <module>
+        from cryptography import x509
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/__init__.py", line 8, in <module>
+        from cryptography.x509.base import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/base.py", line 23, in <module>
+        from cryptography.x509.extensions import Extension, ExtensionType
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/x509/extensions.py", line 22, in <module>
+        from cryptography.hazmat.primitives import constant_time, serialization
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/__init__.py", line 22, in <module>
+        from cryptography.hazmat.primitives.serialization.ssh import (
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization/ssh.py", line 27, in <module>
+        from bcrypt import kdf as _bcrypt_kdf
+      File "/cvmfs/cms.cern.ch/rucio/x86_64/slc7/current/lib/python3.6/site-packages/bcrypt/__init__.py", line 57
+        def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
+                          ^
+    SyntaxError: invalid syntax
+    
+DEBUG 2021-03-10 12:23:36.389 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2021-03-10 12:23:36.389 UTC: 	 Running on: Linux lxplus7107.cern.ch 3.10.0-1160.15.2.el7.x86_64 #1 SMP Wed Feb 3 15:06:38 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-03-10 12:23:36.389 UTC: 	 Executing command: 'status'
+DEBUG 2021-03-10 12:23:36.390 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+ERROR 2021-03-10 12:23:36.421 UTC: 	 Error: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+ERROR 2021-03-10 12:23:36.421 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/status.py", line 41, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 271, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 628, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+INFO 2021-03-10 12:23:36.441 UTC: 	 Log file is /afs/cern.ch/user/d/digupta/CMSSW_10_6_12/src/bctodsmumu_analysis/BcToDsMuMuPAT/test/crab.log
+DEBUG 2021-03-10 12:23:43.761 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2021-03-10 12:23:43.761 UTC: 	 Running on: Linux lxplus7107.cern.ch 3.10.0-1160.15.2.el7.x86_64 #1 SMP Wed Feb 3 15:06:38 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-03-10 12:23:43.761 UTC: 	 Executing command: 'status'
+DEBUG 2021-03-10 12:23:43.761 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+ERROR 2021-03-10 12:23:43.762 UTC: 	 Error: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+ERROR 2021-03-10 12:23:43.762 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/status.py", line 41, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 271, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 628, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+INFO 2021-03-10 12:23:43.764 UTC: 	 Log file is /afs/cern.ch/user/d/digupta/CMSSW_10_6_12/src/bctodsmumu_analysis/BcToDsMuMuPAT/test/crab.log
+DEBUG 2021-03-10 12:24:03.065 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2021-03-10 12:24:03.066 UTC: 	 Running on: Linux lxplus7107.cern.ch 3.10.0-1160.15.2.el7.x86_64 #1 SMP Wed Feb 3 15:06:38 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-03-10 12:24:03.066 UTC: 	 Executing command: 'status'
+DEBUG 2021-03-10 12:24:03.066 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+ERROR 2021-03-10 12:24:03.067 UTC: 	 Error: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+ERROR 2021-03-10 12:24:03.067 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/status.py", line 41, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 271, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 628, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+INFO 2021-03-10 12:24:03.070 UTC: 	 Log file is /afs/cern.ch/user/d/digupta/CMSSW_10_6_12/src/bctodsmumu_analysis/BcToDsMuMuPAT/test/crab.log
+DEBUG 2021-03-10 12:24:08.572 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2021-03-10 12:24:08.572 UTC: 	 Running on: Linux lxplus7107.cern.ch 3.10.0-1160.15.2.el7.x86_64 #1 SMP Wed Feb 3 15:06:38 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-03-10 12:24:08.572 UTC: 	 Executing command: 'status'
+DEBUG 2021-03-10 12:24:08.572 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+ERROR 2021-03-10 12:24:08.573 UTC: 	 Error: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+ERROR 2021-03-10 12:24:08.573 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/status.py", line 41, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 271, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 628, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+INFO 2021-03-10 12:24:08.575 UTC: 	 Log file is /afs/cern.ch/user/d/digupta/CMSSW_10_6_12/src/bctodsmumu_analysis/BcToDsMuMuPAT/test/crab.log
+DEBUG 2021-03-10 12:24:29.313 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2021-03-10 12:24:29.314 UTC: 	 Running on: Linux lxplus7107.cern.ch 3.10.0-1160.15.2.el7.x86_64 #1 SMP Wed Feb 3 15:06:38 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-03-10 12:24:29.314 UTC: 	 Executing command: 'status'
+DEBUG 2021-03-10 12:24:29.314 UTC: 	 Found CRAB cache file /afs/cern.ch/user/d/digupta/.crab3
+ERROR 2021-03-10 12:24:29.316 UTC: 	 Error: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+ERROR 2021-03-10 12:24:29.316 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/status.py", line 41, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 271, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 628, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k/crab_crabjob_Genfile_2018BfilteronlyMC_private_BctoDsMuMu_5k is not a valid CRAB project directory.
+INFO 2021-03-10 12:24:29.318 UTC: 	 Log file is /afs/cern.ch/user/d/digupta/CMSSW_10_6_12/src/bctodsmumu_analysis/BcToDsMuMuPAT/test/crab.log

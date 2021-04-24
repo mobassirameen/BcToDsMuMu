@@ -1,0 +1,109 @@
+========================
+====> SGE  wrapper <====
+========================
+--> Running SGE digi-reco job wrapper
+file:root://se01.indiacms.res.in:1094//cms/store/user/moameen/BcToDsMuMu_MC_MINIAOD/BcToDsMuMu_MC_MINIAOD_1.root
+file:BcToDsMuMu_MC_1.root
+--> Environment
+Fri Apr 23 15:32:11 CEST 2021
+b7s05n2474.cern.ch
+Linux b7s05n2474.cern.ch 3.10.0-1160.21.1.el7.x86_64 #1 SMP Tue Mar 16 18:28:22 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Filesystem                     1K-blocks           Used      Available Use% Mounted on
+/dev/vda1                       52417516       19126116       33291400  37% /
+devtmpfs                         7406984              0        7406984   0% /dev
+/dev/shm                         7434404              0        7434404   0% /dev/shm
+tmpfs                            7434404              0        7434404   0% /sys/fs/cgroup
+tmpfs                            7434404           1024        7433380   1% /run
+tmpfs                            1486884              0        1486884   0% /run/user/995
+/dev/mapper/poolvg-poollv      247573692       27006844      207967760  12% /pool
+AFS                           2147483647              0     2147483647   0% /afs
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/cvmfs-config.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/alice.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/sft.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/na62.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/alice-nightlies.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/atlas-online-nightlies.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/atlas-pixel-daq.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/cms-bril.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/cms-ci.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/cms-opendata-conddb.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/compass.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/compass-condb.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/compass-mc.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/lhcbdev.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/sft-nightlies.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/alice-ocdb.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/ams.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/atlas-condb.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/atlas-nightlies.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/atlas.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/cms-ib.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/cms.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/geant4.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/ilc.desy.de
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/lhcb-condb.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/lhcb.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/na61.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/grid.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/unpacked.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/cernvm-prod.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/ship.cern.ch
+cvmfs2                          24757248       22503266        2253983  91% /cvmfs/dirac.egi.eu
+project-o                  1974217544040   935322998456  1038894545584  48% /eos/project-o
+home-g                     3296335868720  1861269703700  1435066165020  57% /eos/home-g
+project-d                  2552286814304  1391201158752  1161085655552  55% /eos/project-d
+home-s                     2737813750472  1403396803988  1334416946484  52% /eos/home-s
+cms                       64333840413108 42397708491152 21936131921956  66% /eos/cms
+-> which edg-gridftp-ls
+/bin/edg-gridftp-ls
+-> which globus-url-copy
+/bin/globus-url-copy
+-> which srmcp
+/pool/condor/dir_9066
+--> End of env testing
+--> Setup CMSSW
+/pool/condor/dir_9066
+Fri Apr 23 15:32:16 CEST 2021
+/pool/condor/dir_9066
+Fri Apr 23 15:32:16 CEST 2021
+total 60
+-rw-------.  1 moameen zh 10904 Apr 23 15:31 x509up_u137722
+-rwxr-xr-x.  1 moameen zh  2675 Apr 23 15:31 condor_exec.exe
+-rwxr-xr-x.  1 moameen zh  2774 Apr 23 15:31 BcToDsMuMuRootupler.py
+drwx------.  3 moameen zh  4096 Apr 23 15:31 var
+drwx------.  3 moameen zh  4096 Apr 23 15:32 tmp
+-rw-------.  1 moameen zh 14167 Apr 23 15:32 moameen.cc
+-rw-r--r--.  1 moameen zh  5120 Apr 23 15:32 _condor_stdout
+drwxr-xr-x. 17 moameen zh  4096 Apr 23 15:32 CMSSW_10_6_12
+-rw-r--r--.  1 moameen zh   553 Apr 23 15:32 _condor_stderr
+/pool/condor/dir_9066
+--> Run cmsRun
+/pool/condor/dir_9066
+Fri Apr 23 15:32:54 CEST 2021
+cmsRun step1.py 
+condor_exec.exe: line 85: cmsRun: command not found
+Fri Apr 23 15:32:54 CEST 2021
+/pool/condor/dir_9066
+total 64
+-rw-------.  1 moameen zh 10904 Apr 23 15:31 x509up_u137722
+-rwxr-xr-x.  1 moameen zh  2675 Apr 23 15:31 condor_exec.exe
+-rwxr-xr-x.  1 moameen zh  2774 Apr 23 15:31 BcToDsMuMuRootupler.py
+drwx------.  3 moameen zh  4096 Apr 23 15:31 var
+drwx------.  3 moameen zh  4096 Apr 23 15:32 tmp
+-rw-------.  1 moameen zh 14167 Apr 23 15:32 moameen.cc
+drwxr-xr-x. 17 moameen zh  4096 Apr 23 15:32 CMSSW_10_6_12
+-rw-r--r--.  1 moameen zh  1189 Apr 23 15:32 _condor_stderr
+-rw-r--r--.  1 moameen zh    52 Apr 23 15:32 step1.log
+-rw-r--r--.  1 moameen zh  5861 Apr 23 15:32 _condor_stdout
+total 64
+-rw-------.  1 moameen zh 10904 Apr 23 15:31 x509up_u137722
+-rwxr-xr-x.  1 moameen zh  2675 Apr 23 15:31 condor_exec.exe
+-rwxr-xr-x.  1 moameen zh  2774 Apr 23 15:31 BcToDsMuMuRootupler.py
+drwx------.  3 moameen zh  4096 Apr 23 15:31 var
+drwx------.  3 moameen zh  4096 Apr 23 15:32 tmp
+-rw-------.  1 moameen zh 14167 Apr 23 15:32 moameen.cc
+drwxr-xr-x. 17 moameen zh  4096 Apr 23 15:32 CMSSW_10_6_12
+-rw-r--r--.  1 moameen zh  1189 Apr 23 15:32 _condor_stderr
+-rw-r--r--.  1 moameen zh    52 Apr 23 15:32 step1.log
+-rw-r--r--.  1 moameen zh  6447 Apr 23 15:32 _condor_stdout
+run: This is the end, my friend

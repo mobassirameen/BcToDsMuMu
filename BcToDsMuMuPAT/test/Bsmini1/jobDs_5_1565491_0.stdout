@@ -1,0 +1,117 @@
+========================
+====> SGE  wrapper <====
+========================
+--> Running SGE digi-reco job wrapper
+file:root://se01.indiacms.res.in:1094//cms/store/user/digupta/BctoDsMuMu_MC_MINIAOD_5k/BctoDsMuMu_MC_MINIAOD_5k_1001.root
+file:BctoDsMuMu_MC_5.root
+--> Environment
+Tue Apr  6 13:43:27 CEST 2021
+b7s13n8453.cern.ch
+Linux b7s13n8453.cern.ch 3.10.0-1160.6.1.el7.x86_64 #1 SMP Tue Nov 17 13:59:11 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Filesystem                     1K-blocks           Used      Available Use% Mounted on
+/dev/vda2                       52416492       16794524       35621968  33% /
+devtmpfs                        22525692              0       22525692   0% /dev
+/dev/shm                        22553152              0       22553152   0% /dev/shm
+tmpfs                           22553152              0       22553152   0% /sys/fs/cgroup
+tmpfs                           22553152           2732       22550420   1% /run
+tmpfs                            4510632              0        4510632   0% /run/user/0
+AFS                           2147483647              0     2147483647   0% /afs
+/dev/mapper/poolvg-poollv      330143004       38856148      274493464  13% /pool
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/cvmfs-config.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/atlas.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/sft.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/lhcb.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/dampe.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/alice-nightlies.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/atlas-online-nightlies.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/atlas-pixel-daq.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/cms-bril.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/cms-ci.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/cms-opendata-conddb.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/compass.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/compass-condb.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/compass-mc.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/lhcbdev.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/na62.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/sft-nightlies.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/alice-ocdb.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/alice.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/ams.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/atlas-condb.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/atlas-nightlies.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/cms-ib.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/cms.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/geant4.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/ilc.desy.de
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/lhcb-condb.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/na61.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/unpacked.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/grid.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/cernvm-prod.cern.ch
+cvmfs2                          33013760       26557272        6456488  81% /cvmfs/dirac.egi.eu
+home-l                     2215425514544  1264550254304   950875260240  58% /eos/home-l
+home-v                     2986232785472  1331770651756  1654462133716  45% /eos/home-v
+project-o                  1841406085672   923365760648   918040325024  51% /eos/project-o
+home-h                     2737813750472  1364112334252  1373701416220  50% /eos/home-h
+home-y                     2737813750472  1364112334252  1373701416220  50% /eos/home-y
+cms                       64374846299100 41410314482920 22964531816180  65% /eos/cms
+home-d                     2215425514544  1264550254304   950875260240  58% /eos/home-d
+home-j                     3302194302768  1847161420976  1455032881792  56% /eos/home-j
+experiment                57192306866356 42648809250760 14543497615596  75% /eos/experiment
+home-a                     3302194302768  1847161420976  1455032881792  56% /eos/home-a
+home-f                     4167252018880  1154514386448  3012737632432  28% /eos/home-f
+home-n                     2215425514544  1264550254304   950875260240  58% /eos/home-n
+home-p                     4167252018880  1154514386448  3012737632432  28% /eos/home-p
+-> which edg-gridftp-ls
+/bin/edg-gridftp-ls
+-> which globus-url-copy
+/bin/globus-url-copy
+-> which srmcp
+/pool/condor/dir_615
+--> End of env testing
+--> Setup CMSSW
+/pool/condor/dir_615
+Tue Apr  6 13:43:27 CEST 2021
+/pool/condor/dir_615
+Tue Apr  6 13:43:27 CEST 2021
+total 56
+-rw-------.  1 digupta zh 10843 Apr  6 13:43 x509up_u137973
+-rwxr-xr-x.  1 digupta zh  2667 Apr  6 13:43 condor_exec.exe
+-rwxr-xr-x.  1 digupta zh  2532 Apr  6 13:43 BcToDsMuMuRootupler.py
+drwx------.  3 digupta zh  4096 Apr  6 13:43 var
+drwx------.  3 digupta zh  4096 Apr  6 13:43 tmp
+-rw-------.  1 digupta zh 11365 Apr  6 13:43 digupta.cc
+-rw-r--r--.  1 digupta zh  5829 Apr  6 13:43 _condor_stdout
+drwxr-xr-x. 17 digupta zh  4096 Apr  6 13:43 CMSSW_10_2_12
+-rw-r--r--.  1 digupta zh   504 Apr  6 13:43 _condor_stderr
+/pool/condor/dir_615
+--> Run cmsRun
+/pool/condor/dir_615
+Tue Apr  6 13:43:33 CEST 2021
+cmsRun step1.py 
+condor_exec.exe: line 85: cmsRun: command not found
+Tue Apr  6 13:43:33 CEST 2021
+/pool/condor/dir_615
+total 60
+-rw-------.  1 digupta zh 10843 Apr  6 13:43 x509up_u137973
+-rwxr-xr-x.  1 digupta zh  2667 Apr  6 13:43 condor_exec.exe
+-rwxr-xr-x.  1 digupta zh  2532 Apr  6 13:43 BcToDsMuMuRootupler.py
+drwx------.  3 digupta zh  4096 Apr  6 13:43 var
+drwx------.  3 digupta zh  4096 Apr  6 13:43 tmp
+-rw-------.  1 digupta zh 11365 Apr  6 13:43 digupta.cc
+drwxr-xr-x. 17 digupta zh  4096 Apr  6 13:43 CMSSW_10_2_12
+-rw-r--r--.  1 digupta zh  1140 Apr  6 13:43 _condor_stderr
+-rw-r--r--.  1 digupta zh    52 Apr  6 13:43 step1.log
+-rw-r--r--.  1 digupta zh  6567 Apr  6 13:43 _condor_stdout
+total 60
+-rw-------.  1 digupta zh 10843 Apr  6 13:43 x509up_u137973
+-rwxr-xr-x.  1 digupta zh  2667 Apr  6 13:43 condor_exec.exe
+-rwxr-xr-x.  1 digupta zh  2532 Apr  6 13:43 BcToDsMuMuRootupler.py
+drwx------.  3 digupta zh  4096 Apr  6 13:43 var
+drwx------.  3 digupta zh  4096 Apr  6 13:43 tmp
+-rw-------.  1 digupta zh 11365 Apr  6 13:43 digupta.cc
+drwxr-xr-x. 17 digupta zh  4096 Apr  6 13:43 CMSSW_10_2_12
+-rw-r--r--.  1 digupta zh  1140 Apr  6 13:43 _condor_stderr
+-rw-r--r--.  1 digupta zh    52 Apr  6 13:43 step1.log
+-rw-r--r--.  1 digupta zh  7153 Apr  6 13:43 _condor_stdout
+run: This is the end, my friend

@@ -1,0 +1,70 @@
+Beginning analyzer job with value of doMC = 0
+size of the muon collection 3 track size 4 packed track 1830
+size of the muon collection 3 track size 5 packed track 2049
+Sat Apr 24 10:31:05 CEST 2021
+Thread 7 (Thread 0x7f0033604700 (LWP 13409)):
+#0  0x00007f0057b56d19 in syscall () from /lib64/libc.so.6
+#1  0x00007f0050dd72ee in XrdSys::LinuxSemaphore::Wait (this=0x7f003a71c618) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/./XrdSys/XrdSysLinuxSemaphore.hh:161
+#2  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x7f003ab34cb8) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/./XrdCl/XrdClSyncQueue.hh:67
+#3  XrdCl::JobManager::RunJobs (this=0x7f003ab34ca0) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdCl/XrdClJobManager.cc:146
+#4  0x00007f0050dd74d9 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdCl/XrdClJobManager.cc:33
+#5  0x00007f0057e33ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007f0057b5c9fd in clone () from /lib64/libc.so.6
+Thread 6 (Thread 0x7f0033e05700 (LWP 13408)):
+#0  0x00007f0057b56d19 in syscall () from /lib64/libc.so.6
+#1  0x00007f0050dd72ee in XrdSys::LinuxSemaphore::Wait (this=0x7f003a71c618) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/./XrdSys/XrdSysLinuxSemaphore.hh:161
+#2  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x7f003ab34cb8) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/./XrdCl/XrdClSyncQueue.hh:67
+#3  XrdCl::JobManager::RunJobs (this=0x7f003ab34ca0) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdCl/XrdClJobManager.cc:146
+#4  0x00007f0050dd74d9 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdCl/XrdClJobManager.cc:33
+#5  0x00007f0057e33ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007f0057b5c9fd in clone () from /lib64/libc.so.6
+Thread 5 (Thread 0x7f0034606700 (LWP 13407)):
+#0  0x00007f0057b56d19 in syscall () from /lib64/libc.so.6
+#1  0x00007f0050dd72ee in XrdSys::LinuxSemaphore::Wait (this=0x7f003a71c618) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/./XrdSys/XrdSysLinuxSemaphore.hh:161
+#2  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x7f003ab34cb8) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/./XrdCl/XrdClSyncQueue.hh:67
+#3  XrdCl::JobManager::RunJobs (this=0x7f003ab34ca0) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdCl/XrdClJobManager.cc:146
+#4  0x00007f0050dd74d9 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdCl/XrdClJobManager.cc:33
+#5  0x00007f0057e33ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007f0057b5c9fd in clone () from /lib64/libc.so.6
+Thread 4 (Thread 0x7f0034e07700 (LWP 13406)):
+#0  0x00007f0057e3ae9d in nanosleep () from /lib64/libpthread.so.0
+#1  0x00007f0050c11ded in XrdSysTimer::Wait (mills=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdSys/XrdSysTimer.cc:239
+#2  0x00007f0050d789a8 in XrdCl::TaskManager::RunTasks (this=0x7f003abb3b40) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdCl/XrdClTaskManager.cc:244
+#3  0x00007f0050d78af9 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdCl/XrdClTaskManager.cc:37
+#4  0x00007f0057e33ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00007f0057b5c9fd in clone () from /lib64/libc.so.6
+Thread 3 (Thread 0x7f0035608700 (LWP 13405)):
+#0  0x00007f0057b5cfd3 in epoll_wait () from /lib64/libc.so.6
+#1  0x00007f0050c16c27 in XrdSys::IOEvents::PollE::Begin (this=0x7f003ab34bc0, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/./XrdSys/XrdSysIOEventsPollE.icc:213
+#2  0x00007f0050c13505 in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffd722babb0) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdSys/XrdSysIOEvents.cc:131
+#3  0x00007f0050c115e8 in XrdSysThread_Xeq (myargs=0x7f003ab03780) at /build/cmsbld/auto-builds/CMSSW_10_6_0_pre4-slc7_amd64_gcc700/build/CMSSW_10_6_0_pre4-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.5-pafccj/xrootd-4.8.5/src/XrdSys/XrdSysPthread.cc:86
+#4  0x00007f0057e33ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00007f0057b5c9fd in clone () from /lib64/libc.so.6
+Thread 2 (Thread 0x7f0042847700 (LWP 13391)):
+#0  0x00007f0057e3b1d9 in waitpid () from /lib64/libpthread.so.0
+#1  0x00007f0050a43807 in edm::service::cmssw_stacktrace_fork() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#2  0x00007f0050a442ea in edm::service::InitRootHandlers::stacktraceHelperThread() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#3  0x00007f005841dcbf in std::execute_native_thread_routine (__p=0x7f0043337560) at ../../../../../libstdc++-v3/src/c++11/thread.cc:83
+#4  0x00007f0057e33ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00007f0057b5c9fd in clone () from /lib64/libc.so.6
+Thread 1 (Thread 0x7f0056220480 (LWP 13349)):
+#0  0x00007f0057b51ccd in poll () from /lib64/libc.so.6
+#1  0x00007f0050a43d37 in full_read.constprop () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#2  0x00007f0050a443cc in edm::service::InitRootHandlers::stacktraceFromThread() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#3  0x00007f0050a45438 in sig_dostack_then_abort () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007f001fcd4770 in KinematicTree::isEmpty() const () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libRecoVertexKinematicFitPrimitives.so
+#6  0x00007f001fcd516e in KinematicTree::movePointerToTheTop() const () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libRecoVertexKinematicFitPrimitives.so
+#7  0x00007f001fdae95a in BcToDsMuMu::analyze(edm::Event const&, edm::EventSetup const&) () from /afs/cern.ch/user/m/moameen/BcToDsMuMu/CMSSW_10_6_12/lib/slc7_amd64_gcc700/pluginbctodsmumu_analysisBcToDsMuMuPAT.so
+#8  0x00007f005a9621de in edm::EDAnalyzer::doEvent(edm::EventPrincipal const&, edm::EventSetupImpl const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#9  0x00007f005a9b7db2 in edm::WorkerT<edm::EDAnalyzer>::implDo(edm::EventPrincipal const&, edm::EventSetupImpl const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#10 0x00007f005a94a6ea in decltype ({parm#1}()) edm::convertException::wrap<bool edm::Worker::runModule<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >(edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::MyPrincipal const&, edm::EventSetupImpl const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::Context const*)::{lambda()#1}>(bool edm::Worker::runModule<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >(edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::MyPrincipal const&, edm::EventSetupImpl const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::Context const*)::{lambda()#1}) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#11 0x00007f005a94a8ad in bool edm::Worker::runModule<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >(edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::MyPrincipal const&, edm::EventSetupImpl const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#12 0x00007f005a94bf3b in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >(std::__exception_ptr::exception_ptr const*, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::MyPrincipal const&, edm::EventSetupImpl const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#13 0x00007f005a94d565 in void edm::SerialTaskQueueChain::actionToRun<edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >::execute()::{lambda()#1}&>(edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >::execute()::{lambda()#1}&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#14 0x00007f005a94d621 in edm::SerialTaskQueue::QueuedTask<void edm::SerialTaskQueueChain::push<edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >::execute()::{lambda()#1}&>(edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >::execute()::{lambda()#1}&)::{lambda()#1}>::execute() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#15 0x00007f005919d931 in tbb::internal::custom_scheduler<tbb::internal::IntelSchedulerTraits>::local_wait_for_all (this=0x7f0054b4f200, parent=..., child=<optimized out>) at ../../src/tbb/custom_scheduler.h:521
+#16 0x00007f005aa06c60 in edm::EventProcessor::processLumis(std::shared_ptr<void> const&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#17 0x00007f005aa106b1 in edm::EventProcessor::runToCompletion() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_6_12/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#18 0x000000000040fe78 in main::{lambda()#1}::operator()() const ()
+#19 0x000000000040e142 in main ()

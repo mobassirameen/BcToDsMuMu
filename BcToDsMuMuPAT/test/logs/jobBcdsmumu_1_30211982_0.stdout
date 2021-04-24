@@ -1,0 +1,513 @@
+[FERMIHTC-SINGULARITY]: INFO -- No Singulariy image specified
+[FERMIHTC-SINGULARITY]: INFO -- Running job on the host machine
+
+[FERMIHTC-SINGULARITY]: INFO -- Running ./condor_exec.exe 1 /store/data/Run2018B/DoubleMuonLowMass/MINIAOD/17Sep2018-v1/100000/32AB25E3-8BF6-ED4F-A72B-FF5E7036C416.root
+========================
+====> SGE  wrapper <====
+========================
+--> Running SGE digi-reco job wrapper
+/store/data/Run2018B/DoubleMuonLowMass/MINIAOD/17Sep2018-v1/100000/32AB25E3-8BF6-ED4F-A72B-FF5E7036C416.root
+BCToDSMuMu-2018B_MINIAOD_1.root
+--> Environment
+Sat Dec  5 08:03:29 UTC 2020
+ckar-30211982-0-cmswn1814.fnal.gov
+Linux ckar-30211982-0-cmswn1814.fnal.gov 3.10.0-1127.19.1.el7.x86_64 #1 SMP Thu Aug 20 14:39:03 CDT 2020 x86_64 x86_64 x86_64 GNU/Linux
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay        405758800 76006456 309117772  20% /
+tmpfs              65536        0     65536   0% /dev
+tmpfs           12344068        0  12344068   0% /sys/fs/cgroup
+shm                65536        0     65536   0% /dev/shm
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/gcoconfig.fnal.gov
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/annie.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/argoneut.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/cdf.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/cdms.opensciencegrid.org
+cvmfs2          41943040 40595662   1347379  97% /cvmfs/cms.cern.ch
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/coupp.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/d0.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/darkside.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/des.opensciencegrid.org
+cvmfs2           1024000   617965    406036  61% /cvmfs/des.osgstorage.org
+cvmfs2           1024000   617965    406036  61% /cvmfs/dune.osgstorage.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/dune.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/fermilab.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/fifeuser1.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/fifeuser2.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/fifeuser3.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/fifeuser4.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/gm2.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/icarus.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/lariat.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/larsoft.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/minerva.opensciencegrid.org
+cvmfs2           1024000   617965    406036  61% /cvmfs/minerva.osgstorage.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/minos.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/mu2e.opensciencegrid.org
+cvmfs2           1024000   617965    406036  61% /cvmfs/mu2e.osgstorage.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/nova.opensciencegrid.org
+cvmfs2           1024000   617965    406036  61% /cvmfs/nova.osgstorage.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/oasis.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/sbnd.opensciencegrid.org
+cvmfs2           1024000   617965    406036  61% /cvmfs/sbn.osgstorage.org
+cvmfs2           1024000   617965    406036  61% /cvmfs/sbnd.osgstorage.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/seaquest.opensciencegrid.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/singularity.opensciencegrid.org
+cvmfs2           1024000   617965    406036  61% /cvmfs/stash.osgstorage.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/uboone.opensciencegrid.org
+cvmfs2           1024000   617965    406036  61% /cvmfs/uboone.osgstorage.org
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/cms-ib.cern.ch
+cvmfs2          41943040 24423929  17519111  59% /cvmfs/sft.cern.ch
+/dev/sda5      405758800 76006456 309117772  20% /tmp
+/dev/sda2       41153760 19932392  19107832  52% /etc/krb5.conf
+tmpfs           12344068        0  12344068   0% /proc/acpi
+tmpfs           12344068        0  12344068   0% /proc/scsi
+tmpfs           12344068        0  12344068   0% /sys/firmware
+-> which edg-gridftp-ls
+-> which globus-url-copy
+/usr/bin/globus-url-copy
+-> which srmcp
+/storage/local/data1/condor/execute/dir_24006
+--> End of env testing
+--> Setup CMSSW
+/storage/local/data1/condor/execute/dir_24006
+Sat Dec  5 08:03:29 UTC 2020
+bctodsmumu_analysis/
+bctodsmumu_analysis/.git/
+bctodsmumu_analysis/.git/branches/
+bctodsmumu_analysis/.git/info/
+bctodsmumu_analysis/.git/info/exclude
+bctodsmumu_analysis/.git/hooks/
+bctodsmumu_analysis/.git/hooks/applypatch-msg.sample
+bctodsmumu_analysis/.git/hooks/pre-applypatch.sample
+bctodsmumu_analysis/.git/hooks/pre-receive.sample
+bctodsmumu_analysis/.git/hooks/commit-msg.sample
+bctodsmumu_analysis/.git/hooks/fsmonitor-watchman.sample
+bctodsmumu_analysis/.git/hooks/update.sample
+bctodsmumu_analysis/.git/hooks/pre-rebase.sample
+bctodsmumu_analysis/.git/hooks/post-update.sample
+bctodsmumu_analysis/.git/hooks/pre-commit.sample
+bctodsmumu_analysis/.git/hooks/prepare-commit-msg.sample
+bctodsmumu_analysis/.git/hooks/pre-push.sample
+bctodsmumu_analysis/.git/description
+bctodsmumu_analysis/.git/refs/
+bctodsmumu_analysis/.git/refs/heads/
+bctodsmumu_analysis/.git/refs/heads/master
+bctodsmumu_analysis/.git/refs/heads/newbcdstomumucode
+bctodsmumu_analysis/.git/refs/tags/
+bctodsmumu_analysis/.git/refs/remotes/
+bctodsmumu_analysis/.git/refs/remotes/origin/
+bctodsmumu_analysis/.git/refs/remotes/origin/newbcdstomumucode
+bctodsmumu_analysis/.git/objects/
+bctodsmumu_analysis/.git/objects/pack/
+bctodsmumu_analysis/.git/objects/info/
+bctodsmumu_analysis/.git/objects/fb/
+bctodsmumu_analysis/.git/objects/fb/96b334861ad4aa9523d12b6f5ab7a73ee0fc2a
+bctodsmumu_analysis/.git/objects/66/
+bctodsmumu_analysis/.git/objects/66/6203bbc421eca5bcba232ec3ecddda45021e12
+bctodsmumu_analysis/.git/objects/0f/
+bctodsmumu_analysis/.git/objects/0f/859d99c1f4be842394eac6e4089b19d0a3d90a
+bctodsmumu_analysis/.git/objects/00/
+bctodsmumu_analysis/.git/objects/00/9b8f1025e2b6ad1fdb079043e5f223d2e75e43
+bctodsmumu_analysis/.git/objects/ee/
+bctodsmumu_analysis/.git/objects/ee/c6ab0e34f8a5fe060ba5221c6d4f79cf6a8e2e
+bctodsmumu_analysis/.git/objects/5e/
+bctodsmumu_analysis/.git/objects/5e/d4a0317b33c153e352e04ea92ecac0f55093ef
+bctodsmumu_analysis/.git/objects/30/
+bctodsmumu_analysis/.git/objects/30/d09d007ab300e51ceb393c67ab12937543c1da
+bctodsmumu_analysis/.git/objects/e2/
+bctodsmumu_analysis/.git/objects/e2/5195906e2808de6b79abffff36503a92e11959
+bctodsmumu_analysis/.git/objects/fd/
+bctodsmumu_analysis/.git/objects/fd/f3fd0ab84b34db40e473cd00ee8af147616a9f
+bctodsmumu_analysis/.git/objects/a6/
+bctodsmumu_analysis/.git/objects/a6/438182f2d30d49e56aa07cc0a10ae30ce709ce
+bctodsmumu_analysis/.git/objects/a6/0a382e152f51b1857f8cb64e4e93ab30317ecf
+bctodsmumu_analysis/.git/objects/9a/
+bctodsmumu_analysis/.git/objects/9a/ec5963781810b912f0a7fd0332f4ddd81e2a25
+bctodsmumu_analysis/.git/objects/9a/838527a3ff48f0d2824f7ef646ff24a35d78b0
+bctodsmumu_analysis/.git/objects/ac/
+bctodsmumu_analysis/.git/objects/ac/eae303831efc830c24f1dc5eb04e4d14c40bc5
+bctodsmumu_analysis/.git/objects/7e/
+bctodsmumu_analysis/.git/objects/7e/6f6e856e9cad6d4a64384607a3c67e1b5d43e8
+bctodsmumu_analysis/.git/objects/7e/b9ad30b23dab2e27a196b84797218624be6a0e
+bctodsmumu_analysis/.git/objects/38/
+bctodsmumu_analysis/.git/objects/38/c9fd82724f4547b3cf39704f83651211b17492
+bctodsmumu_analysis/.git/objects/33/
+bctodsmumu_analysis/.git/objects/33/47dc05a3fcaf38a426220116607729ce328142
+bctodsmumu_analysis/.git/objects/21/
+bctodsmumu_analysis/.git/objects/21/249c13395c85219bbd0dce2e8e47497560edd0
+bctodsmumu_analysis/.git/objects/50/
+bctodsmumu_analysis/.git/objects/50/4002a71bca9940fcb2de26ee9bc6faa09d943c
+bctodsmumu_analysis/.git/objects/1c/
+bctodsmumu_analysis/.git/objects/1c/9354760d77e8aba082122c6ffad943295b9b0e
+bctodsmumu_analysis/.git/objects/f1/
+bctodsmumu_analysis/.git/objects/f1/75b12ab9a7fd8256f7db84db601d14eccd8dc3
+bctodsmumu_analysis/.git/objects/41/
+bctodsmumu_analysis/.git/objects/41/b6f7bb7e1d8360db5f6605a6ee32c09c2ceb06
+bctodsmumu_analysis/.git/objects/68/
+bctodsmumu_analysis/.git/objects/68/bc582416ad4b0912afd0be6b2576b357d05b06
+bctodsmumu_analysis/.git/objects/06/
+bctodsmumu_analysis/.git/objects/06/cf33f9d13b3daf72c7e094c2131cf7d8f5df38
+bctodsmumu_analysis/.git/objects/bb/
+bctodsmumu_analysis/.git/objects/bb/2278ef6de143732f22278d5f262ceb64bf01c9
+bctodsmumu_analysis/.git/objects/bb/046d39cfc490520ec2be630586e2331cd6feca
+bctodsmumu_analysis/.git/objects/67/
+bctodsmumu_analysis/.git/objects/67/27e3b793907fb15e8819e906dd0ab8b8e524af
+bctodsmumu_analysis/.git/objects/20/
+bctodsmumu_analysis/.git/objects/20/2cd070a464a23490c638f635251cca228960a2
+bctodsmumu_analysis/.git/objects/d9/
+bctodsmumu_analysis/.git/objects/d9/756ed58b00027e6d65b659d15c26a09d32267a
+bctodsmumu_analysis/.git/objects/89/
+bctodsmumu_analysis/.git/objects/89/d14d45ff37dfb8221bcd4f4040c280bdcc4b19
+bctodsmumu_analysis/.git/objects/e8/
+bctodsmumu_analysis/.git/objects/e8/876307a168a03321a864135d451a59aa18b9d3
+bctodsmumu_analysis/.git/objects/ba/
+bctodsmumu_analysis/.git/objects/ba/96d19e3c0163ea241c397eb2846c80d0d6cae2
+bctodsmumu_analysis/.git/objects/09/
+bctodsmumu_analysis/.git/objects/09/24062598630f833b1191cecd3ea1892076ea8e
+bctodsmumu_analysis/.git/objects/09/722f4d0f7dfffae4691bed4296d79630605a82
+bctodsmumu_analysis/.git/objects/26/
+bctodsmumu_analysis/.git/objects/26/1ad1d21cf19e34c554c7bd78884304807a53d3
+bctodsmumu_analysis/.git/objects/78/
+bctodsmumu_analysis/.git/objects/78/8a980250de9ad36e26664eaa3a8f85131370b3
+bctodsmumu_analysis/.git/objects/78/5ae088fb89b3524b29462dc666301e28b12a54
+bctodsmumu_analysis/.git/objects/79/
+bctodsmumu_analysis/.git/objects/79/2871729ccf4bc3e0457dbf2a46e3b7500e4d1e
+bctodsmumu_analysis/.git/objects/65/
+bctodsmumu_analysis/.git/objects/65/df1e66d9fde76e381457dcb2ccbfbf74c40c7b
+bctodsmumu_analysis/.git/objects/3e/
+bctodsmumu_analysis/.git/objects/3e/6c184615d4a1c99b8a624ed4e1f50df891c9c2
+bctodsmumu_analysis/.git/objects/75/
+bctodsmumu_analysis/.git/objects/75/a1058cec5770b696fa8b41e364dc668f9bf1a3
+bctodsmumu_analysis/.git/objects/dd/
+bctodsmumu_analysis/.git/objects/dd/23c644eaeabc6a0afca68dcc9f9306c56e5c08
+bctodsmumu_analysis/.git/objects/7b/
+bctodsmumu_analysis/.git/objects/7b/e20a3d5eac4537515ba888319d5625dfb6c3ba
+bctodsmumu_analysis/.git/objects/a4/
+bctodsmumu_analysis/.git/objects/a4/75edf9000bdbd826491ee7b9f41a59f4a80a61
+bctodsmumu_analysis/.git/objects/48/
+bctodsmumu_analysis/.git/objects/48/93dbbf7c5ffdd4bc809f2c4a5682757b05467f
+bctodsmumu_analysis/.git/objects/48/05bfd358cace9ab935326364e5a18838beaff9
+bctodsmumu_analysis/.git/objects/98/
+bctodsmumu_analysis/.git/objects/98/544ec22ae25caac2a97b87f783f4957c9e12c5
+bctodsmumu_analysis/.git/objects/73/
+bctodsmumu_analysis/.git/objects/73/a6d68f9ea5f979e8915c8991be1ea33b14cb5c
+bctodsmumu_analysis/.git/objects/92/
+bctodsmumu_analysis/.git/objects/92/25865bc9f5be60c83c327c83a672512d506038
+bctodsmumu_analysis/.git/objects/6b/
+bctodsmumu_analysis/.git/objects/6b/53c29d3c410026105b3e3b4b0908211dd5ad05
+bctodsmumu_analysis/.git/objects/d0/
+bctodsmumu_analysis/.git/objects/d0/2047d3f5e13883550bae18a6d33b68ccdc3f37
+bctodsmumu_analysis/.git/objects/4d/
+bctodsmumu_analysis/.git/objects/4d/8eb8cc7b30a0a3423a5c9a29264b170686d377
+bctodsmumu_analysis/.git/objects/be/
+bctodsmumu_analysis/.git/objects/be/f58b7bc1cc3c59ff420875a35683823e1d8def
+bctodsmumu_analysis/.git/objects/34/
+bctodsmumu_analysis/.git/objects/34/f9a6af650c7937f4b7bb9e537b21d257c9ef25
+bctodsmumu_analysis/.git/objects/69/
+bctodsmumu_analysis/.git/objects/69/ab7b30a929a8a667467c96e840fe3e0bc4b173
+bctodsmumu_analysis/.git/objects/cf/
+bctodsmumu_analysis/.git/objects/cf/a82d15d82b491eea52ecb07e8a306b8259ddd7
+bctodsmumu_analysis/.git/objects/a7/
+bctodsmumu_analysis/.git/objects/a7/bc00204370d7801caa3576b9597d505f635336
+bctodsmumu_analysis/.git/objects/f2/
+bctodsmumu_analysis/.git/objects/f2/f4027539687218454151a5e249ca65e9f0b27f
+bctodsmumu_analysis/.git/objects/28/
+bctodsmumu_analysis/.git/objects/28/7a1c63c4b2565c3e225986752d085c64cd8fdd
+bctodsmumu_analysis/.git/objects/f5/
+bctodsmumu_analysis/.git/objects/f5/5d41ead2c398f9b42639a5cf4f4e6b1e0c43a8
+bctodsmumu_analysis/.git/objects/7d/
+bctodsmumu_analysis/.git/objects/7d/597a122b812c871840d9284c0a35e2aa3584ae
+bctodsmumu_analysis/.git/objects/a3/
+bctodsmumu_analysis/.git/objects/a3/489c260587d65fcfa7b3dd3010ecf3c965cb74
+bctodsmumu_analysis/.git/objects/62/
+bctodsmumu_analysis/.git/objects/62/0679bf373d5edbc0a5d595c20109f61b1566c3
+bctodsmumu_analysis/.git/objects/3a/
+bctodsmumu_analysis/.git/objects/3a/78d051f22a796ce7e31e4306d86250ffe84165
+bctodsmumu_analysis/.git/objects/03/
+bctodsmumu_analysis/.git/objects/03/fe74303f5d61166ca3de6c03bbefc5dbc719e6
+bctodsmumu_analysis/.git/objects/7a/
+bctodsmumu_analysis/.git/objects/7a/4ab022063cf29aa00d7a6848cb235375600f91
+bctodsmumu_analysis/.git/objects/5d/
+bctodsmumu_analysis/.git/objects/5d/7844de23f3f21292ea1ac511b853548d29155b
+bctodsmumu_analysis/.git/objects/31/
+bctodsmumu_analysis/.git/objects/31/d190ebee2966a8892e933223f7dc6d5f7cb937
+bctodsmumu_analysis/.git/objects/57/
+bctodsmumu_analysis/.git/objects/57/d549ada73a34ff26eeb27638016d6d1077a7db
+bctodsmumu_analysis/.git/objects/57/47308422080ca55bc84b5fa158a2ade1049455
+bctodsmumu_analysis/.git/objects/bc/
+bctodsmumu_analysis/.git/objects/bc/9ad9537db0ebb07046ff6aadff3f6d044cc9b0
+bctodsmumu_analysis/.git/objects/47/
+bctodsmumu_analysis/.git/objects/47/549f4bb09b3d4979169d4a24d21e057af31ce9
+bctodsmumu_analysis/.git/objects/83/
+bctodsmumu_analysis/.git/objects/83/5f584d91388cc2cc5e21464d6a0f028268cc9e
+bctodsmumu_analysis/.git/objects/f8/
+bctodsmumu_analysis/.git/objects/f8/b2627fe99871d6cf4ba12a851e6e7a6015c7b5
+bctodsmumu_analysis/.git/objects/af/
+bctodsmumu_analysis/.git/objects/af/4e373ad988a8803c9292b037390d72334c9dd5
+bctodsmumu_analysis/.git/objects/d1/
+bctodsmumu_analysis/.git/objects/d1/4a72dce91610ffd98c5c770239c350c48d235f
+bctodsmumu_analysis/.git/HEAD
+bctodsmumu_analysis/.git/config
+bctodsmumu_analysis/.git/logs/
+bctodsmumu_analysis/.git/logs/refs/
+bctodsmumu_analysis/.git/logs/refs/remotes/
+bctodsmumu_analysis/.git/logs/refs/remotes/origin/
+bctodsmumu_analysis/.git/logs/refs/remotes/origin/newbcdstomumucode
+bctodsmumu_analysis/.git/logs/refs/heads/
+bctodsmumu_analysis/.git/logs/refs/heads/master
+bctodsmumu_analysis/.git/logs/refs/heads/newbcdstomumucode
+bctodsmumu_analysis/.git/logs/HEAD
+bctodsmumu_analysis/.git/COMMIT_EDITMSG
+bctodsmumu_analysis/.git/index
+bctodsmumu_analysis/.git/packed-refs
+bctodsmumu_analysis/README.md
+bctodsmumu_analysis/BcToDsMuMuPAT/
+bctodsmumu_analysis/BcToDsMuMuPAT/BuildFile.xml
+bctodsmumu_analysis/BcToDsMuMuPAT/python/
+bctodsmumu_analysis/BcToDsMuMuPAT/python/BcToDsMuMuRootupler_cfi.pyc
+bctodsmumu_analysis/BcToDsMuMuPAT/python/__init__.py
+bctodsmumu_analysis/BcToDsMuMuPAT/python/__init__.pyc
+bctodsmumu_analysis/BcToDsMuMuPAT/python/BcToDsMuMuRootupler_cfi.py
+bctodsmumu_analysis/BcToDsMuMuPAT/src/
+bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.h
+bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc~
+bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc
+bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.h~
+bctodsmumu_analysis/BcToDsMuMuPAT/test/
+bctodsmumu_analysis/BcToDsMuMuPAT/test/Rootuple_BctoDsMuMu_2018_MiniAOD.root
+bctodsmumu_analysis/BcToDsMuMuPAT/test/Rootuple_Bdtojpiks0_2018_MiniAOD.root
+bctodsmumu_analysis/BcToDsMuMuPAT/test/crabConfig_2018C_DoubleMuon_MINIAOD_v1.py
+bctodsmumu_analysis/BcToDsMuMuPAT/test/crabConfig_2018A_DoubleMuon_MINIAOD_v1.py
+bctodsmumu_analysis/BcToDsMuMuPAT/test/.__afs2E78
+bctodsmumu_analysis/BcToDsMuMuPAT/test/crabConfig_2018B_DoubleMuon_MINIAOD_v1.pyc
+bctodsmumu_analysis/BcToDsMuMuPAT/test/crabConfig_2018B_DoubleMuon_MINIAOD_v1.py
+bctodsmumu_analysis/BcToDsMuMuPAT/test/crabConfig_2018Am_DoubleMuon_MINIAOD_v1.py
+bctodsmumu_analysis/BcToDsMuMuPAT/test/slimmedMuonsTriggerMatcher_cfi.py
+bctodsmumu_analysis/BcToDsMuMuPAT/test/slimmedMuonsTriggerMatcher_cfi.pyc
+bctodsmumu_analysis/BcToDsMuMuPAT/test/BcToDsMuMuRootupler.pyc
+bctodsmumu_analysis/BcToDsMuMuPAT/test/BcToDsMuMuRootupler.py
+bctodsmumu_analysis/BcToDsMuMuPAT/test/BcToDsMuMuRootupler.py~
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_1_30204420_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_2_30204421_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_3_30204422_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_4_30204423_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_5_30204424_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_6_30204425_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_7_30204426_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_8_30204427_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_9_30204428_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_10_30204429_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_11_30204430_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_12_30204431_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_13_30204432_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_14_30204433_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_15_30204434_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_16_30204435_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_17_30204436_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_18_30204437_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_19_30204438_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_20_30204439_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_21_30204440_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_23_30204441_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_24_30204442_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_25_30204443_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_26_30204444_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_27_30204445_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_28_30204446_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_29_30204447_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/logs/jobBcdsmumu_30_30204448_0.log
+bctodsmumu_analysis/BcToDsMuMuPAT/test/2018B_file.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/prodDigiReco.sh~
+bctodsmumu_analysis/BcToDsMuMuPAT/test/BcToDsMuMuRootupler_mod.py~
+bctodsmumu_analysis/BcToDsMuMuPAT/test/BcToDsMuMuRootupler_mod.py
+bctodsmumu_analysis/BcToDsMuMuPAT/test/prodDigiReco.sh
+bctodsmumu_analysis/BcToDsMuMuPAT/test/submitjob.py~
+bctodsmumu_analysis/BcToDsMuMuPAT/test/submitjob.py
+bctodsmumu_analysis/BcToDsMuMuPAT/test/x509up_u56005
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_1.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_2.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_3.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_4.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_5.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_6.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_7.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_8.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_9.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_10.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_11.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_12.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_13.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_14.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_15.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_16.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_17.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_18.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_19.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_20.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_21.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_22.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_23.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_24.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_25.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_26.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_27.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_28.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_29.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_30.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/test/condor_sub_Jpsi_31.txt
+bctodsmumu_analysis/BcToDsMuMuPAT/BuildFile.xml~
+total 4
+drwxr-xr-x 4 ckar fnalgrid 4096 Dec  1 11:45 bctodsmumu_analysis
+/storage/local/data1/condor/execute/dir_24006/CMSSW_10_2_18/src
+Done: ProjectRename
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Building CMSSW version CMSSW_10_2_18 ----
+>> Entering Package bctodsmumu_analysis/BcToDsMuMuPAT
+>> Creating project symlinks
+Entering library rule at bctodsmumu_analysis/BcToDsMuMuPAT
+>> Compiling edm plugin /storage/local/data1/condor/execute/dir_24006/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc 
+>> Building edm plugin tmp/slc7_amd64_gcc700/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/bctodsmumu_analysisBcToDsMuMuPAT/libbctodsmumu_analysisBcToDsMuMuPAT.so
+Leaving library rule at bctodsmumu_analysis/BcToDsMuMuPAT
+@@@@ Running edmWriteConfigs for bctodsmumu_analysisBcToDsMuMuPAT
+--- Registered EDM Plugin: bctodsmumu_analysisBcToDsMuMuPAT
+>> Leaving Package bctodsmumu_analysis/BcToDsMuMuPAT
+>> Package bctodsmumu_analysis/BcToDsMuMuPAT built
+>> Subsystem bctodsmumu_analysis built
+>> Subsystem BigProducts built
+gmake[1]: Entering directory '/storage/local/data1/condor/execute/dir_24006/CMSSW_10_2_18'
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Creating project symlinks
+>> Done python_symlink
+>> Compiling python modules cfipython/slc7_amd64_gcc700
+>> Compiling python modules python
+>> Compiling python modules src/bctodsmumu_analysis/BcToDsMuMuPAT/python
+>> All python modules compiled
+@@@@ Refreshing Plugins:edmPluginRefresh
+>> Plugins of all types refreshed.
+>> Done generating edm plugin poisoned information
+gmake[1]: Leaving directory '/storage/local/data1/condor/execute/dir_24006/CMSSW_10_2_18'
+Beginning analyzer job with value of doMC = 0
+Thread 7 (Thread 0x7f8274abe700 (LWP 998)):
+#0  0x00007f829c275bf9 in syscall () from /lib64/libc.so.6
+#1  0x00007f82969a279e in XrdSys::LinuxSemaphore::Wait (this=0x7f8279e00588) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdSys/XrdSysLinuxSemaphore.hh:161
+#2  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x7f8279e07cf8) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdCl/XrdClSyncQueue.hh:67
+#3  XrdCl::JobManager::RunJobs (this=0x7f8279e07ce0) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:146
+#4  0x00007f82969a2989 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:33
+#5  0x00007f829c552ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007f829c27b8dd in clone () from /lib64/libc.so.6
+Thread 6 (Thread 0x7f82752bf700 (LWP 997)):
+#0  0x00007f829c275bf9 in syscall () from /lib64/libc.so.6
+#1  0x00007f82969a279e in XrdSys::LinuxSemaphore::Wait (this=0x7f8279e00588) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdSys/XrdSysLinuxSemaphore.hh:161
+#2  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x7f8279e07cf8) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdCl/XrdClSyncQueue.hh:67
+#3  XrdCl::JobManager::RunJobs (this=0x7f8279e07ce0) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:146
+#4  0x00007f82969a2989 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:33
+#5  0x00007f829c552ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007f829c27b8dd in clone () from /lib64/libc.so.6
+Thread 5 (Thread 0x7f8275ac0700 (LWP 996)):
+#0  0x00007f829c275bf9 in syscall () from /lib64/libc.so.6
+#1  0x00007f82969a279e in XrdSys::LinuxSemaphore::Wait (this=0x7f8279e00588) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdSys/XrdSysLinuxSemaphore.hh:161
+#2  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x7f8279e07cf8) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdCl/XrdClSyncQueue.hh:67
+#3  XrdCl::JobManager::RunJobs (this=0x7f8279e07ce0) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:146
+#4  0x00007f82969a2989 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:33
+#5  0x00007f829c552ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007f829c27b8dd in clone () from /lib64/libc.so.6
+Thread 4 (Thread 0x7f82762c1700 (LWP 995)):
+#0  0x00007f829c559e9d in nanosleep () from /lib64/libpthread.so.0
+#1  0x00007f82967e4ded in XrdSysTimer::Wait (mills=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdSys/XrdSysTimer.cc:239
+#2  0x00007f8296946118 in XrdCl::TaskManager::RunTasks (this=0x7f8279e0ea40) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClTaskManager.cc:244
+#3  0x00007f8296946269 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClTaskManager.cc:37
+#4  0x00007f829c552ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00007f829c27b8dd in clone () from /lib64/libc.so.6
+Thread 3 (Thread 0x7f8276ac2700 (LWP 994)):
+#0  0x00007f829c27beb3 in epoll_wait () from /lib64/libc.so.6
+#1  0x00007f82967e9c17 in XrdSys::IOEvents::PollE::Begin (this=0x7f8279e07dc0, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdSys/XrdSysIOEventsPollE.icc:213
+#2  0x00007f82967e64f5 in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffc9514d5e0) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdSys/XrdSysIOEvents.cc:131
+#3  0x00007f82967e45e8 in XrdSysThread_Xeq (myargs=0x7f8279c41920) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdSys/XrdSysPthread.cc:86
+#4  0x00007f829c552ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00007f829c27b8dd in clone () from /lib64/libc.so.6
+Thread 2 (Thread 0x7f8285b04700 (LWP 987)):
+#0  0x00007f829c55a1d9 in waitpid () from /lib64/libpthread.so.0
+#1  0x00007f829666dfc7 in edm::service::cmssw_stacktrace_fork() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#2  0x00007f829666eaaa in edm::service::InitRootHandlers::stacktraceHelperThread() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#3  0x00007f829cb3c8ff in std::execute_native_thread_routine (__p=0x7f8285b969c0) at ../../../../../libstdc++-v3/src/c++11/thread.cc:83
+#4  0x00007f829c552ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00007f829c27b8dd in clone () from /lib64/libc.so.6
+Thread 1 (Thread 0x7f829a941480 (LWP 968)):
+#0  0x00007f829c270c3d in poll () from /lib64/libc.so.6
+#1  0x00007f829666e4f7 in full_read.constprop () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#2  0x00007f829666eb8c in edm::service::InitRootHandlers::stacktraceFromThread() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#3  0x00007f829666fbf9 in sig_dostack_then_abort () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007f8295d48e4e in float& std::vector<float, std::allocator<float> >::emplace_back<float>(float&&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libCondFormatsEgammaObjects.so
+#6  0x00007f8264131498 in BcToDsMuMu::analyze(edm::Event const&, edm::EventSetup const&) () from /storage/local/data1/condor/execute/dir_24006/CMSSW_10_2_18/lib/slc7_amd64_gcc700/pluginbctodsmumu_analysisBcToDsMuMuPAT.so
+#7  0x00007f829ef5623a in edm::EDAnalyzer::doEvent(edm::EventPrincipal const&, edm::EventSetup const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#8  0x00007f829efaab12 in edm::WorkerT<edm::EDAnalyzer>::implDo(edm::EventPrincipal const&, edm::EventSetup const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#9  0x00007f829ef3f19a in decltype ({parm#1}()) edm::convertException::wrap<bool edm::Worker::runModule<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >(edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::MyPrincipal const&, edm::EventSetup const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::Context const*)::{lambda()#1}>(bool edm::Worker::runModule<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >(edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::MyPrincipal const&, edm::EventSetup const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::Context const*)::{lambda()#1}) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#10 0x00007f829ef3f35d in bool edm::Worker::runModule<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >(edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::MyPrincipal const&, edm::EventSetup const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#11 0x00007f829ef40a7b in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >(std::__exception_ptr::exception_ptr const*, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::MyPrincipal const&, edm::EventSetup const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#12 0x00007f829ef42165 in void edm::SerialTaskQueueChain::actionToRun<edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >::execute()::{lambda()#1}&>(edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >::execute()::{lambda()#1}&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#13 0x00007f829ef42221 in edm::SerialTaskQueue::QueuedTask<void edm::SerialTaskQueueChain::push<edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >::execute()::{lambda()#1}&>(edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::BranchActionType)1> >::execute()::{lambda()#1}&)::{lambda()#1}>::execute() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#14 0x00007f829d89d466 in tbb::internal::custom_scheduler<tbb::internal::IntelSchedulerTraits>::local_wait_for_all (this=0x7f8299dc3200, parent=..., child=<optimized out>) at ../../src/tbb/custom_scheduler.h:509
+#15 0x00007f829f005eb1 in edm::EventProcessor::processLumis(std::shared_ptr<void> const&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#16 0x00007f829f00f20a in edm::EventProcessor::runToCompletion() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_18/lib/slc7_amd64_gcc700/libFWCoreFramework.so
+#17 0x000000000040eafb in main::{lambda()#1}::operator()() const ()
+#18 0x000000000040d2c2 in main ()
+total 635844
+-rw-r--r-- 1 ckar fnalgrid      3051 Oct 14 05:27 slimmedMuonsTriggerMatcher_cfi.py
+-rw-r--r-- 1 ckar fnalgrid      1486 Oct 14 05:27 crabConfig_2018C_DoubleMuon_MINIAOD_v1.py
+-rw-r--r-- 1 ckar fnalgrid      1489 Oct 14 05:27 crabConfig_2018Am_DoubleMuon_MINIAOD_v1.py
+-rw-r--r-- 1 ckar fnalgrid      1866 Oct 14 05:33 slimmedMuonsTriggerMatcher_cfi.pyc
+-rw-r--r-- 1 ckar fnalgrid       399 Oct 14 08:47 Rootuple_Bdtojpiks0_2018_MiniAOD.root
+-rwxr-xr-x 1 ckar fnalgrid      1672 Nov 30 05:25 BcToDsMuMuRootupler.py~
+-rwxr-xr-x 1 ckar fnalgrid      1671 Dec  2 09:05 BcToDsMuMuRootupler.py
+-rw-r--r-- 1 ckar fnalgrid      1594 Dec  2 09:18 BcToDsMuMuRootupler.pyc
+-rw-r--r-- 1 ckar fnalgrid      1362 Dec  2 10:33 crabConfig_2018A_DoubleMuon_MINIAOD_v1.py
+-rw-r--r-- 1 ckar fnalgrid     42367 Dec  3 04:58 Rootuple_BctoDsMuMu_2018_MiniAOD.root
+-rw-r--r-- 1 ckar fnalgrid      1475 Dec  3 05:01 crabConfig_2018B_DoubleMuon_MINIAOD_v1.py
+-rw-r--r-- 1 ckar fnalgrid      1408 Dec  3 05:02 crabConfig_2018B_DoubleMuon_MINIAOD_v1.pyc
+-rw-r--r-- 1 ckar fnalgrid     33540 Dec  3 06:31 2018B_file.txt
+-rw-r--r-- 1 ckar fnalgrid      2016 Dec  3 06:35 prodDigiReco.sh~
+-rwxr-xr-x 1 ckar fnalgrid      1683 Dec  3 06:35 BcToDsMuMuRootupler_mod.py~
+-rwxr-xr-x 1 ckar fnalgrid      1852 Dec  3 06:37 BcToDsMuMuRootupler_mod.py
+-rw-r--r-- 1 ckar fnalgrid      2065 Dec  3 06:38 prodDigiReco.sh
+-rw-r--r-- 1 ckar fnalgrid      1611 Dec  3 06:39 submitjob.py~
+-rw-r--r-- 1 ckar fnalgrid      1426 Dec  3 06:40 submitjob.py
+-rw------- 1 ckar fnalgrid      9876 Dec  3 06:40 x509up_u56005
+-rw-r--r-- 1 ckar fnalgrid       630 Dec  3 06:40 condor_sub_Jpsi_2.txt
+-rw-r--r-- 1 ckar fnalgrid       630 Dec  3 06:40 condor_sub_Jpsi_1.txt
+-rw-r--r-- 1 ckar fnalgrid       630 Dec  3 06:40 condor_sub_Jpsi_7.txt
+-rw-r--r-- 1 ckar fnalgrid       630 Dec  3 06:40 condor_sub_Jpsi_6.txt
+-rw-r--r-- 1 ckar fnalgrid       630 Dec  3 06:40 condor_sub_Jpsi_5.txt
+-rw-r--r-- 1 ckar fnalgrid       630 Dec  3 06:40 condor_sub_Jpsi_4.txt
+-rw-r--r-- 1 ckar fnalgrid       630 Dec  3 06:40 condor_sub_Jpsi_3.txt
+-rw-r--r-- 1 ckar fnalgrid       630 Dec  3 06:40 condor_sub_Jpsi_9.txt
+-rw-r--r-- 1 ckar fnalgrid       630 Dec  3 06:40 condor_sub_Jpsi_8.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_13.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_12.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_11.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_10.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_18.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_17.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_16.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_15.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_14.txt
+-rw-r--r-- 1 ckar fnalgrid       632 Dec  3 06:40 condor_sub_Jpsi_24.txt
+-rw-r--r-- 1 ckar fnalgrid       632 Dec  3 06:40 condor_sub_Jpsi_23.txt
+-rw-r--r-- 1 ckar fnalgrid       632 Dec  3 06:40 condor_sub_Jpsi_22.txt
+-rw-r--r-- 1 ckar fnalgrid       632 Dec  3 06:40 condor_sub_Jpsi_21.txt
+-rw-r--r-- 1 ckar fnalgrid       632 Dec  3 06:40 condor_sub_Jpsi_20.txt
+-rw-r--r-- 1 ckar fnalgrid       632 Dec  3 06:40 condor_sub_Jpsi_19.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_30.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_29.txt
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_28.txt
+-rw-r--r-- 1 ckar fnalgrid       632 Dec  3 06:40 condor_sub_Jpsi_27.txt
+-rw-r--r-- 1 ckar fnalgrid       632 Dec  3 06:40 condor_sub_Jpsi_26.txt
+-rw-r--r-- 1 ckar fnalgrid       632 Dec  3 06:40 condor_sub_Jpsi_25.txt
+drwxr-xr-x 2 ckar fnalgrid      4096 Dec  3 06:40 logs
+-rw-r--r-- 1 ckar fnalgrid       633 Dec  3 06:40 condor_sub_Jpsi_31.txt
+-rw-r--r-- 1 ckar fnalgrid       387 Dec  5 08:06 BCToDSMuMu-2018B_MINIAOD_1.root
+-rw------- 1 ckar fnalgrid 861642752 Dec  5 08:23 core.968
+run: This is the end, my friend

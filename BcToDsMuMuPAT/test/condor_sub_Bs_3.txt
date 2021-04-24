@@ -1,0 +1,19 @@
+
+universe              = vanilla
+Executable            = prodDigiReco.sh
+Requirements = OpSys=="LINUX"&&(Arch!="DUMMY")
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Transfer_Input_Files  = BcToDsMuMuRootupler.py
+
+x509userproxy         = x509up_u137973
++JobFlavour = "tomorrow"
+RequestMemory         = 8000
+RequestDisk           = 15000
+
+error = Bsmini1/jobDs_3_$(Cluster)_$(Process).stderr
+Log = Bsmini1/jobDs_3_$(Cluster)_$(Process).log
+output = Bsmini1/jobDs_3_$(Cluster)_$(Process).stdout
+Arguments =BctoDsMuMu_MC_MINIAOD_5k_100.root 3
+Queue
+

@@ -1,0 +1,78 @@
+./condor_exec.exe: line 35: limit: command not found
+which: no edg-gridftp-ls in (/cvmfs/cms.cern.ch/common:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)
+which: no srmcp in (/cvmfs/cms.cern.ch/common:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)
+WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.
+/storage/local/data1/condor/execute/dir_10717/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc: In member function 'virtual void BcToDsMuMu::analyze(const edm::Event&, const edm::EventSetup&)':
+/storage/local/data1/condor/execute/dir_10717/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc:664:16: warning: unused variable 'Ds_mass' [-Wunused-variable]
+   ParticleMass Ds_mass = 1.9097614;
+                ^~~~~~~
+/storage/local/data1/condor/execute/dir_10717/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc: In member function 'bool BcToDsMuMu::IsTheSametk(const pat::GenericParticle&, const pat::Muon&)':
+/storage/local/data1/condor/execute/dir_10717/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc:1105:10: warning: unused variable 'DeltaEta' [-Wunused-variable]
+   double DeltaEta = fabs(mu.eta()-tk.eta());
+          ^~~~~~~~
+/storage/local/data1/condor/execute/dir_10717/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc:1106:10: warning: unused variable 'DeltaP' [-Wunused-variable]
+   double DeltaP   = fabs(mu.p()-tk.p());
+          ^~~~~~
+/storage/local/data1/condor/execute/dir_10717/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc: In member function 'bool BcToDsMuMu::IsTheSamePFtk(const pat::PackedCandidate&, const pat::Muon&)':
+/storage/local/data1/condor/execute/dir_10717/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc:1112:10: warning: unused variable 'DeltaEta' [-Wunused-variable]
+   double DeltaEta = fabs(mu.eta()-tk.eta());
+          ^~~~~~~~
+/storage/local/data1/condor/execute/dir_10717/CMSSW_10_2_18/src/bctodsmumu_analysis/BcToDsMuMuPAT/src/BcToDsMuMu.cc:1113:10: warning: unused variable 'DeltaP' [-Wunused-variable]
+   double DeltaP   = fabs(mu.p()-tk.p());
+          ^~~~~~
+cp: missing destination file operand after '../../../../../BcToDsMuMuRootupler_mod.py'
+Try 'cp --help' for more information.
+05-Dec-2020 10:49:55 UTC  Initiating request to open file root://cmsxrootd-site.fnal.gov//store/data/Run2018B/DoubleMuonLowMass/MINIAOD/17Sep2018-v1/100000/32AB25E3-8BF6-ED4F-A72B-FF5E7036C416.root
+%MSG-w XrdAdaptor:  file_open 05-Dec-2020 10:49:56 UTC pre-events
+Data is served from fnal.gov instead of original site T1_US_FNAL
+%MSG
+05-Dec-2020 10:49:57 UTC  Successfully opened file root://cmsxrootd-site.fnal.gov//store/data/Run2018B/DoubleMuonLowMass/MINIAOD/17Sep2018-v1/100000/32AB25E3-8BF6-ED4F-A72B-FF5E7036C416.root
+Begin processing the 1st record. Run 317649, Event 353296335, LumiSection 239 on stream 0 at 05-Dec-2020 10:51:04.734 UTC
+Begin processing the 2nd record. Run 317649, Event 353124380, LumiSection 239 on stream 0 at 05-Dec-2020 10:51:22.172 UTC
+Begin processing the 3rd record. Run 317649, Event 352908303, LumiSection 239 on stream 0 at 05-Dec-2020 10:51:34.679 UTC
+Begin processing the 4th record. Run 317649, Event 353294279, LumiSection 239 on stream 0 at 05-Dec-2020 10:51:34.687 UTC
+Begin processing the 5th record. Run 317649, Event 353312715, LumiSection 239 on stream 0 at 05-Dec-2020 10:51:40.019 UTC
+Begin processing the 6th record. Run 317649, Event 353313689, LumiSection 239 on stream 0 at 05-Dec-2020 10:51:47.916 UTC
+Begin processing the 7th record. Run 317649, Event 352896614, LumiSection 239 on stream 0 at 05-Dec-2020 10:51:47.924 UTC
+Begin processing the 8th record. Run 317649, Event 352934049, LumiSection 239 on stream 0 at 05-Dec-2020 10:52:27.626 UTC
+Begin processing the 9th record. Run 317649, Event 353250971, LumiSection 239 on stream 0 at 05-Dec-2020 10:52:27.640 UTC
+Begin processing the 10th record. Run 317649, Event 353163601, LumiSection 239 on stream 0 at 05-Dec-2020 10:52:27.648 UTC
+Begin processing the 11th record. Run 317649, Event 353094110, LumiSection 239 on stream 0 at 05-Dec-2020 10:52:27.653 UTC
+Begin processing the 12th record. Run 317649, Event 353024448, LumiSection 239 on stream 0 at 05-Dec-2020 10:53:46.542 UTC
+Begin processing the 13th record. Run 317649, Event 353019981, LumiSection 239 on stream 0 at 05-Dec-2020 10:53:46.563 UTC
+Begin processing the 14th record. Run 317649, Event 353346060, LumiSection 239 on stream 0 at 05-Dec-2020 10:54:02.590 UTC
+Begin processing the 15th record. Run 317649, Event 353170133, LumiSection 239 on stream 0 at 05-Dec-2020 10:54:05.793 UTC
+Begin processing the 16th record. Run 317649, Event 352916205, LumiSection 239 on stream 0 at 05-Dec-2020 10:54:11.144 UTC
+Begin processing the 17th record. Run 317649, Event 353144607, LumiSection 239 on stream 0 at 05-Dec-2020 10:54:11.155 UTC
+Begin processing the 18th record. Run 317649, Event 353106918, LumiSection 239 on stream 0 at 05-Dec-2020 10:54:15.437 UTC
+Begin processing the 19th record. Run 317649, Event 352984396, LumiSection 239 on stream 0 at 05-Dec-2020 10:54:15.443 UTC
+Begin processing the 20th record. Run 317649, Event 353061453, LumiSection 239 on stream 0 at 05-Dec-2020 10:54:29.748 UTC
+Begin processing the 21st record. Run 317649, Event 353792089, LumiSection 239 on stream 0 at 05-Dec-2020 10:54:54.311 UTC
+Begin processing the 22nd record. Run 317649, Event 352813316, LumiSection 239 on stream 0 at 05-Dec-2020 10:54:59.122 UTC
+Begin processing the 23rd record. Run 317649, Event 353271872, LumiSection 239 on stream 0 at 05-Dec-2020 10:55:05.818 UTC
+Begin processing the 24th record. Run 317649, Event 353336641, LumiSection 239 on stream 0 at 05-Dec-2020 10:55:05.833 UTC
+Begin processing the 25th record. Run 317649, Event 353018070, LumiSection 239 on stream 0 at 05-Dec-2020 10:55:35.776 UTC
+Begin processing the 26th record. Run 317649, Event 353249139, LumiSection 239 on stream 0 at 05-Dec-2020 10:55:43.475 UTC
+Begin processing the 27th record. Run 317649, Event 353055732, LumiSection 239 on stream 0 at 05-Dec-2020 10:55:50.904 UTC
+Begin processing the 28th record. Run 317649, Event 353225121, LumiSection 239 on stream 0 at 05-Dec-2020 10:56:14.950 UTC
+Begin processing the 29th record. Run 317649, Event 352912778, LumiSection 239 on stream 0 at 05-Dec-2020 10:56:36.875 UTC
+Begin processing the 30th record. Run 317649, Event 352775376, LumiSection 239 on stream 0 at 05-Dec-2020 10:56:50.289 UTC
+Begin processing the 31st record. Run 317649, Event 352835640, LumiSection 239 on stream 0 at 05-Dec-2020 10:57:21.946 UTC
+Begin processing the 32nd record. Run 317649, Event 352784215, LumiSection 239 on stream 0 at 05-Dec-2020 10:57:34.110 UTC
+Begin processing the 33rd record. Run 317649, Event 353029728, LumiSection 239 on stream 0 at 05-Dec-2020 10:57:47.959 UTC
+Begin processing the 34th record. Run 317649, Event 353253727, LumiSection 239 on stream 0 at 05-Dec-2020 10:58:43.093 UTC
+Begin processing the 35th record. Run 317649, Event 353078361, LumiSection 239 on stream 0 at 05-Dec-2020 10:58:43.102 UTC
+Begin processing the 36th record. Run 317649, Event 352730101, LumiSection 239 on stream 0 at 05-Dec-2020 10:58:46.459 UTC
+
+
+A fatal system signal has occurred: segmentation violation
+The following is the call stack containing the origin of the signal.
+
+
+Current Modules:
+
+Module: BcToDsMuMu:rootuple (crashed)
+
+A fatal system signal has occurred: segmentation violation
+./condor_exec.exe: line 77:   968 Segmentation fault      (core dumped) cmsRun BcToDsMuMuRootupler_mod.py
+[387B/387B][100%][==================================================][387B/s]  [387B/387B][100%][==================================================][387B/s]  

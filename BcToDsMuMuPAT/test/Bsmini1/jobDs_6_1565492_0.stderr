@@ -1,0 +1,11 @@
+df: ‘/eos/atlas’: Connection timed out
+df: ‘/eos/lhcb’: Connection timed out
+which: no srmcp in (/afs/cern.ch/cms/caf/scripts:/cvmfs/cms.cern.ch/common:/afs/cern.ch/cms/caf/scripts:/cvmfs/cms.cern.ch/common:/usr/sue/bin:/bin:/usr/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin)
+WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.
+condor_exec.exe: line 60: cd: CMSSW_10_2_12/src/bctodsmumu_analysis/BcToDsMuMuPAT/test/: No such file or directory
+SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
+SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
+mv: cannot stat ‘../../../../../BcToDsMuMuRootupler.py’: No such file or directory
+SCRAM fatal: Unable to locate the top of local release. Please run this command from a SCRAM-based area.
+which: no cmsRun in (/afs/cern.ch/cms/caf/scripts:/cvmfs/cms.cern.ch/common:/afs/cern.ch/cms/caf/scripts:/cvmfs/cms.cern.ch/common:/usr/sue/bin:/bin:/usr/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin)
+xrdcp: no such file or directory processing BctoDsMuMu_MC_.root
