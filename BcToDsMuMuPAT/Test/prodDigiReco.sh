@@ -69,7 +69,7 @@ scramv1 b ProjectRename
 scramv1 b
 
 
-cd bctodsmumu_analysis/BcToDsMuMuPAT/test1/
+cd bctodsmumu_analysis/BcToDsMuMuPAT/Test/
 #mv ../../BctoDsMuMu_MC_SIM_cfg.py  step1.py
 #mv ../../BctoDsMuMu_MC_DIGI_cfg.py  step1.py
 cp ../../../../../BctoDsMuMu_MC_step3_cfg.py
@@ -100,7 +100,7 @@ ls -ltr
 
 #xrdcp BPH-RunIIAutumn18DRPremix-XX-JpsiKs30k_step3_$2.root root://se01.indiacms.res.in:1094//cms/store/user/psadangi/BsToJpsiKs/BPH-RunIIAutumn18DRPremix-XX-JpsiKs30k_step3_$2.root
 #xrdcp BcToDsMuMu_MC_$2.root root://se01.indiacms.res.in:1094//cms/store/user/moameen/BctoDsMuMu_MC_Ntuples_test/BcToDsMuMu_MC_$2.root	
-xrdcp BcToDsMuMu_MC_Ntuple_$2.root root://eosuser.cern.ch//eos/user/m/moameen/BcToDsMuMu_MC_Ntuples_test/BcToDsMuMu_MC_Ntuple$2.root
+xrdcp BcToDsMuMu_MC_$2.root root://eosuser.cern.ch//eos/user/m/moameen/BcToDsMuMu_MC_Ntuples_test/BcToDsMuMu_MC_$2.root
 # BATCH END
 
 echo "run: This is the end, my friend"

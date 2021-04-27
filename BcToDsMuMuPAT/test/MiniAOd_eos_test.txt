@@ -1,0 +1,5 @@
+file:root://eosuser.cern.ch//eos//user/m/moameen/BcToDsMuMu_MC_MINIAOD/BcToDsMuMu_MC_MINIAOD_1.root
+file:root://eosuser.cern.ch//eos//user/m/moameen/BcToDsMuMu_MC_MINIAOD/BcToDsMuMu_MC_MINIAOD_10.root
+file:root://eosuser.cern.ch//eos//user/m/moameen/BcToDsMuMu_MC_MINIAOD/BcToDsMuMu_MC_MINIAOD_100.root
+file:root://eosuser.cern.ch//eos//user/m/moameen/BcToDsMuMu_MC_MINIAOD/BcToDsMuMu_MC_MINIAOD_1000.root
+file:root://eosuser.cern.ch//eos//user/m/moameen/BcToDsMuMu_MC_MINIAOD/BcToDsMuMu_MC_MINIAOD_101.root
