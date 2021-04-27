@@ -556,7 +556,7 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 	    continue;
 	  }
 
-	  
+	 /* 
           KinematicParticleVertexFitter fitter;   
           RefCountedKinematicTree psiVertexFitTree;
         try {
@@ -576,7 +576,7 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 	  psiVertexFitTree->movePointerToTheTop();
 	  
 	  RefCountedKinematicParticle psi_vFit_noMC = psiVertexFitTree->currentParticle();//masa del J/psi
-	  RefCountedKinematicVertex psi_vFit_vertex_noMC = psiVertexFitTree->currentDecayVertex();//vertice del J/psi
+	  RefCountedKinematicVertex psi_vFit_vertex_noMC = psiVertexFitTree->currentDecayVertex();//vertice del J/psi */
 	  
 	  if( psi_vFit_vertex_noMC->chiSquared() < 0 )
 	    {
