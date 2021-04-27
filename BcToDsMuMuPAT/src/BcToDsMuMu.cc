@@ -556,7 +556,7 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 	    continue;
 	  }
 
-	 /* 
+	  
           KinematicParticleVertexFitter fitter;   
           RefCountedKinematicTree psiVertexFitTree;
         try {
@@ -576,7 +576,7 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 	  psiVertexFitTree->movePointerToTheTop();
 	  
 	  RefCountedKinematicParticle psi_vFit_noMC = psiVertexFitTree->currentParticle();//masa del J/psi
-	  RefCountedKinematicVertex psi_vFit_vertex_noMC = psiVertexFitTree->currentDecayVertex();//vertice del J/psi */
+	  RefCountedKinematicVertex psi_vFit_vertex_noMC = psiVertexFitTree->currentDecayVertex();//vertice del J/psi 
 	  
 	  if( psi_vFit_vertex_noMC->chiSquared() < 0 )
 	    {
@@ -717,35 +717,35 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 		RefCountedKinematicVertex Ds_vFit_vertex_noMC = DsVertexFitTree->currentDecayVertex(); */
 		
                 
-		if( Ds_vFit_vertex_noMC->chiSquared() < 0 )
-		  { 
+	//	if( Ds_vFit_vertex_noMC->chiSquared() < 0 )
+	//	  { 
 		    //std::cout << "negative chisq from ks fit" << endl;
-		    continue;
-		  }
+	//	    continue;
+	//	  }
 		
 
 		//some loose cuts go here
 	         
-		if(Ds_vFit_vertex_noMC->chiSquared()>50) continue;
-		if(Ds_vFit_noMC->currentState().mass()<1.90 || Ds_vFit_noMC->currentState().mass()>2.04) continue;
-		double Dspt= sqrt(pow(Ds_vFit_noMC->currentState().globalMomentum().x(),2) +pow(Ds_vFit_noMC->currentState().globalMomentum().y(),2));
-		if(Dspt<0) continue;
-		double Ds_Prob_tmp  = TMath::Prob(Ds_vFit_vertex_noMC->chiSquared(),(int)Ds_vFit_vertex_noMC->degreesOfFreedom());
-		if(Ds_Prob_tmp<0.01)
-		  {
-		    continue;
-		  }
-		DsVertexFitTree->movePointerToTheFirstChild();
-		RefCountedKinematicParticle T1CandMC = DsVertexFitTree->currentParticle();
+	//	if(Ds_vFit_vertex_noMC->chiSquared()>50) continue;
+	//	if(Ds_vFit_noMC->currentState().mass()<1.90 || Ds_vFit_noMC->currentState().mass()>2.04) continue;
+	//	double Dspt= sqrt(pow(Ds_vFit_noMC->currentState().globalMomentum().x(),2) +pow(Ds_vFit_noMC->currentState().globalMomentum().y(),2));
+	//	if(Dspt<0) continue;
+	//	double Ds_Prob_tmp  = TMath::Prob(Ds_vFit_vertex_noMC->chiSquared(),(int)Ds_vFit_vertex_noMC->degreesOfFreedom());
+	//	if(Ds_Prob_tmp<0.01)
+	//	  {
+	//	    continue;
+	//	  }
+	//	DsVertexFitTree->movePointerToTheFirstChild();
+	//	RefCountedKinematicParticle T1CandMC = DsVertexFitTree->currentParticle();
 		
-		DsVertexFitTree->movePointerToTheNextChild();
-		RefCountedKinematicParticle T2CandMC = DsVertexFitTree->currentParticle();
+	//	DsVertexFitTree->movePointerToTheNextChild();
+	//	RefCountedKinematicParticle T2CandMC = DsVertexFitTree->currentParticle();
 		
-		DsVertexFitTree->movePointerToTheNextChild();
-		RefCountedKinematicParticle T3CandMC = DsVertexFitTree->currentParticle();
+	//	DsVertexFitTree->movePointerToTheNextChild();
+	//	RefCountedKinematicParticle T3CandMC = DsVertexFitTree->currentParticle();
 		
-		DsVertexFitTree->movePointerToTheTop();
-		RefCountedKinematicParticle ks0_vFit_withMC = DsVertexFitTree->currentParticle();
+	//	DsVertexFitTree->movePointerToTheTop();
+	//	RefCountedKinematicParticle ks0_vFit_withMC = DsVertexFitTree->currentParticle();
 		
 		//Now we are ready to combine!
 		
@@ -756,7 +756,7 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 		//vFitMCParticles.push_back(pFactory.particle(pion1TT,kaon_mass,chi,ndf,kaon_sigma));
 		//vFitMCParticles.push_back(pFactory.particle(pion2TT,kaon_mass,chi,ndf,kaon_sigma));
 		
-		vFitMCParticles.push_back(ks0_vFit_withMC);
+	//	vFitMCParticles.push_back(ks0_vFit_withMC);
 		
 		KinematicConstrainedVertexFitter kcvFitter;
 		RefCountedKinematicTree vertexFitTree = kcvFitter.fit(vFitMCParticles);
@@ -815,22 +815,22 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 				    mu2CandMC->currentState().globalMomentum().y(),
 				    mu2CandMC->currentState().globalMomentum().z());
 		
-		GlobalVector Dsp1vec(T1CandMC->currentState().globalMomentum().x(),
-				     T1CandMC->currentState().globalMomentum().y(),
-				     T1CandMC->currentState().globalMomentum().z());
+	//	GlobalVector Dsp1vec(T1CandMC->currentState().globalMomentum().x(),
+	//			     T1CandMC->currentState().globalMomentum().y(),
+	//			     T1CandMC->currentState().globalMomentum().z());
 		
-		GlobalVector Dsp2vec(T2CandMC->currentState().globalMomentum().x(),
-				     T2CandMC->currentState().globalMomentum().y(),
-				     T2CandMC->currentState().globalMomentum().z());
+	//	GlobalVector Dsp2vec(T2CandMC->currentState().globalMomentum().x(),
+	//			     T2CandMC->currentState().globalMomentum().y(),
+	//			     T2CandMC->currentState().globalMomentum().z());
 		
-		GlobalVector Dsp3vec(T3CandMC->currentState().globalMomentum().x(),
-				     T3CandMC->currentState().globalMomentum().y(),
-				     T3CandMC->currentState().globalMomentum().z());
+	//	GlobalVector Dsp3vec(T3CandMC->currentState().globalMomentum().x(),
+	//			     T3CandMC->currentState().globalMomentum().y(),
+	//			     T3CandMC->currentState().globalMomentum().z());
 		
 		
-		KinematicParameters DsPi1KP = T1CandMC->currentState().kinematicParameters();
-		KinematicParameters DsPi2KP = T2CandMC->currentState().kinematicParameters();
-		KinematicParameters DsPi3KP = T3CandMC->currentState().kinematicParameters();
+       //	KinematicParameters DsPi1KP = T1CandMC->currentState().kinematicParameters();
+       //	KinematicParameters DsPi2KP = T2CandMC->currentState().kinematicParameters();
+       //	KinematicParameters DsPi3KP = T3CandMC->currentState().kinematicParameters();
 		
 		// fill candidate variables now
 		
@@ -844,51 +844,51 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 		B_py->push_back(bCandMC->currentState().globalMomentum().y());
 		B_pz->push_back(bCandMC->currentState().globalMomentum().z());
 		
-		B_Ds_mass->push_back( Ds_vFit_noMC->currentState().mass() );
-		B_Ds_px->push_back( Ds_vFit_noMC->currentState().globalMomentum().x() );
-		B_Ds_py->push_back( Ds_vFit_noMC->currentState().globalMomentum().y() );
-		B_Ds_pz->push_back( Ds_vFit_noMC->currentState().globalMomentum().z() );
+	//	B_Ds_mass->push_back( Ds_vFit_noMC->currentState().mass() );
+	//	B_Ds_px->push_back( Ds_vFit_noMC->currentState().globalMomentum().x() );
+	//	B_Ds_py->push_back( Ds_vFit_noMC->currentState().globalMomentum().y() );
+	//	B_Ds_pz->push_back( Ds_vFit_noMC->currentState().globalMomentum().z() );
 		
 		B_mumu_mass->push_back( psi_vFit_noMC->currentState().mass() );
 		B_mumu_px->push_back( psi_vFit_noMC->currentState().globalMomentum().x() );
 		B_mumu_py->push_back( psi_vFit_noMC->currentState().globalMomentum().y() );
 		B_mumu_pz->push_back( psi_vFit_noMC->currentState().globalMomentum().z() );
 		
-		B_Ds_pt1->push_back(Dsp1vec.perp());
-		B_Ds_px1->push_back(DsPi1KP.momentum().x());
-		B_Ds_py1->push_back(DsPi1KP.momentum().y());
-		B_Ds_pz1->push_back(DsPi1KP.momentum().z());
+	//	B_Ds_pt1->push_back(Dsp1vec.perp());
+	//	B_Ds_px1->push_back(DsPi1KP.momentum().x());
+	//	B_Ds_py1->push_back(DsPi1KP.momentum().y());
+	//	B_Ds_pz1->push_back(DsPi1KP.momentum().z());
 		B_Ds_px1_track->push_back(iTrack1.px());
 		B_Ds_py1_track->push_back(iTrack1.py());
 		B_Ds_pz1_track->push_back(iTrack1.pz());
 		// B_Ds_px1_track->push_back(iTrack1->px());
 		// B_Ds_py1_track->push_back(iTrack1->py());
 		// B_Ds_pz1_track->push_back(iTrack1->pz());
-		B_Ds_charge1->push_back(T1CandMC->currentState().particleCharge());
+	//	B_Ds_charge1->push_back(T1CandMC->currentState().particleCharge());
 		
-		B_Ds_pt2->push_back(Dsp2vec.perp());
-		B_Ds_px2->push_back(DsPi2KP.momentum().x());
-		B_Ds_py2->push_back(DsPi2KP.momentum().y());
-		B_Ds_pz2->push_back(DsPi2KP.momentum().z());
+	//	B_Ds_pt2->push_back(Dsp2vec.perp());
+	//	B_Ds_px2->push_back(DsPi2KP.momentum().x());
+	//	B_Ds_py2->push_back(DsPi2KP.momentum().y());
+	//	B_Ds_pz2->push_back(DsPi2KP.momentum().z());
 		B_Ds_px2_track->push_back(iTrack2.px());
 		B_Ds_py2_track->push_back(iTrack2.py());
 		B_Ds_pz2_track->push_back(iTrack2.pz());
 		// B_Ds_px2_track->push_back(iTrack2->px());
 		// B_Ds_py2_track->push_back(iTrack2->py());
 		// B_Ds_pz2_track->push_back(iTrack2->pz());
-		B_Ds_charge2->push_back(T2CandMC->currentState().particleCharge());
+	//	B_Ds_charge2->push_back(T2CandMC->currentState().particleCharge());
 
-		B_Ds_pt3->push_back(Dsp3vec.perp());
-		B_Ds_px3->push_back(DsPi3KP.momentum().x());
-		B_Ds_py3->push_back(DsPi3KP.momentum().y());
-		B_Ds_pz3->push_back(DsPi3KP.momentum().z());
+	//	B_Ds_pt3->push_back(Dsp3vec.perp());
+	//	B_Ds_px3->push_back(DsPi3KP.momentum().x());
+	//	B_Ds_py3->push_back(DsPi3KP.momentum().y());
+	//	B_Ds_pz3->push_back(DsPi3KP.momentum().z());
 		B_Ds_px3_track->push_back(iTrack3.px());
 		B_Ds_py3_track->push_back(iTrack3.py());
 		B_Ds_pz3_track->push_back(iTrack3.pz());
 		// B_Ds_px3_track->push_back(iTrack3->px());
 		// B_Ds_py3_track->push_back(iTrack3->py());
 		// B_Ds_pz3_track->push_back(iTrack3->pz());
-		B_Ds_charge3->push_back(T3CandMC->currentState().particleCharge());
+	//	B_Ds_charge3->push_back(T3CandMC->currentState().particleCharge());
 		
 		B_mumu_pt1->push_back(Jp1vec.perp());
 		B_mumu_px1->push_back(psiMu1KP.momentum().x());
@@ -902,7 +902,7 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 		B_mumu_pz2->push_back(psiMu2KP.momentum().z());
 		B_mumu_charge2->push_back(mu2CandMC->currentState().particleCharge());
 		
-		B_Ds_chi2->push_back(Ds_vFit_vertex_noMC->chiSquared());
+	//	B_Ds_chi2->push_back(Ds_vFit_vertex_noMC->chiSquared());
 		B_mumu_chi2->push_back(psi_vFit_vertex_noMC->chiSquared());
 		B_chi2->push_back(bDecayVertexMC->chiSquared());
 		B_chi2dof->push_back(bDecayVertexMC->chiSquared()/bDecayVertexMC->degreesOfFreedom());
@@ -912,7 +912,7 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 		//double Ds_Prob_tmp  = TMath::Prob(Ds_vFit_vertex_noMC->chiSquared(),(int)Ds_vFit_vertex_noMC->degreesOfFreedom());
 		B_Prob    ->push_back(B_Prob_tmp);
 		B_mumu_Prob  ->push_back(J_Prob_tmp);
-		B_Ds_Prob ->push_back(Ds_Prob_tmp);
+	//	B_Ds_Prob ->push_back(Ds_Prob_tmp);
 		
 		      // ************
 		bDecayVtxX->push_back((*bDecayVertexMC).position().x());
@@ -925,15 +925,15 @@ void BcToDsMuMu::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup
 		bDecayVtxXZE->push_back(bDecayVertexMC->error().czx());
 		bDecayVtxYZE->push_back(bDecayVertexMC->error().czy());
 		
-		VDecayVtxX->push_back( Ds_vFit_vertex_noMC->position().x() );
-		VDecayVtxY->push_back( Ds_vFit_vertex_noMC->position().y() );
-		VDecayVtxZ->push_back( Ds_vFit_vertex_noMC->position().z() );
-		VDecayVtxXE->push_back( Ds_vFit_vertex_noMC->error().cxx() );
-		VDecayVtxYE->push_back( Ds_vFit_vertex_noMC->error().cyy() );
-		VDecayVtxZE->push_back( Ds_vFit_vertex_noMC->error().czz() );
-		VDecayVtxXYE->push_back( Ds_vFit_vertex_noMC->error().cyx() );
-		VDecayVtxXZE->push_back( Ds_vFit_vertex_noMC->error().czx() );
-		VDecayVtxYZE->push_back( Ds_vFit_vertex_noMC->error().czy() );
+	//	VDecayVtxX->push_back( Ds_vFit_vertex_noMC->position().x() );
+	//	VDecayVtxY->push_back( Ds_vFit_vertex_noMC->position().y() );
+	//	VDecayVtxZ->push_back( Ds_vFit_vertex_noMC->position().z() );
+        //      VDecayVtxXE->push_back( Ds_vFit_vertex_noMC->error().cxx() );
+	//	VDecayVtxYE->push_back( Ds_vFit_vertex_noMC->error().cyy() );
+	//	VDecayVtxZE->push_back( Ds_vFit_vertex_noMC->error().czz() );
+	//	VDecayVtxXYE->push_back( Ds_vFit_vertex_noMC->error().cyx() );
+	//	VDecayVtxXZE->push_back( Ds_vFit_vertex_noMC->error().czx() );
+	//	VDecayVtxYZE->push_back( Ds_vFit_vertex_noMC->error().czy() );
 		
 		// ********************* muon-trigger-machint**************** 
 		
